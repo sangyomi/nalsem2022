@@ -1,0 +1,6 @@
+[console_scripts]
+mecha_autoship_filtered_image_sub_node = mecha_autoship_camera.mecha_autoship_filtered_image_sub_node:main
+mecha_autoship_image_color_filter_node = mecha_autoship_camera.mecha_autoship_image_color_filter_node:main
+mecha_autoship_image_pub_node = mecha_autoship_camera.mecha_autoship_image_pub_node:main
+mecha_autoship_image_sub_node = mecha_autoship_camera.mecha_autoship_image_sub_node:main
+

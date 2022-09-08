@@ -1,0 +1,19 @@
+#another terminal 1
+
+cd ros2_ws
+
+. install/setup.bash
+
+sudo chmod 666 /dev/tty*
+sudo chmod 666 /dev/i2c-*
+
+ros2 launch nalsem_A nalsem_A.launch.py
+----------------------------------------
+
+
+
+#another terminal 2
+
+cd /home/nalsem/ros2_ws/src/nalsem_A/nalsem_A/
+
+python3 nalsem_main_node.py

@@ -1,0 +1,21 @@
+import numpy as np
+from double_motor import *
+zimport time
+from math import *
+import atexit
+
+def handle_exit():
+    time.sleep(1)
+    M.__del__()
+
+atexit.register(handle_exit) 
+print("A")
+time.sleep(1)
+M = Motor()
+time.sleep(1)
+
+time.sleep(1)
+print("B")
+M.motor_move(30, 30)
+time.sleep(10)
+print("C")

@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/base/timer.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/base/timer.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/common/ydlidar_def.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/common/ydlidar_def.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/network/ActiveSocket.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/network/ActiveSocket.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/network/PassiveSocket.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/network/PassiveSocket.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/network/SimpleSocket.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/network/SimpleSocket.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/serial/serial.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/serial/serial.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/cc  -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test    -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o   -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/lock.c",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/lock.c"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/list_ports_linux.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/list_ports_linux.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/unix_serial.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/unix_serial.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/src/CYdLidar.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/src/CYdLidar.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/src/ETLidarDriver.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/src/ETLidarDriver.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/src/GS2LidarDriver.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/src/ydlidar_sdk.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/src/ydlidar_sdk.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test   -std=c++11   -fPIC -o CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/src/filters/NoiseFilter.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/src/filters/NoiseFilter.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk/samples",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/src/YDLidar-SDK/.. -I/home/nalsem/ros2_ws/build/ydlidar_sdk/samples   -std=c++11   -fPIC -std=c++11 -o CMakeFiles/et_test.dir/et_test.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/samples/et_test.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/samples/et_test.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk/samples",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/src/YDLidar-SDK/.. -I/home/nalsem/ros2_ws/build/ydlidar_sdk/samples   -std=c++11   -fPIC -std=c++11 -o CMakeFiles/tri_test.dir/tri_test.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/samples/tri_test.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/samples/tri_test.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk/samples",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/src/YDLidar-SDK/.. -I/home/nalsem/ros2_ws/build/ydlidar_sdk/samples   -std=c++11   -fPIC -std=c++11 -o CMakeFiles/gs_test.dir/gs_test.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/samples/gs_test.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/samples/gs_test.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk/samples",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/src/YDLidar-SDK/.. -I/home/nalsem/ros2_ws/build/ydlidar_sdk/samples   -std=c++11   -fPIC -std=c++11 -o CMakeFiles/tof_test.dir/tof_test.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/samples/tof_test.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/samples/tof_test.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk/samples",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/src/YDLidar-SDK/.. -I/home/nalsem/ros2_ws/build/ydlidar_sdk/samples   -std=c++11   -fPIC -std=c++11 -o CMakeFiles/tmini_test.dir/tmini_test.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/samples/tmini_test.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/samples/tmini_test.cpp"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk/samples",
+  "command": "/usr/bin/cc  -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/src/YDLidar-SDK/.. -I/home/nalsem/ros2_ws/build/ydlidar_sdk/samples    -fPIC -std=c++11 -o CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o   -c /home/nalsem/ros2_ws/src/YDLidar-SDK/samples/lidar_c_api_test.c",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/samples/lidar_c_api_test.c"
+},
+{
+  "directory": "/home/nalsem/ros2_ws/build/ydlidar_sdk/test",
+  "command": "/usr/bin/c++   -I/home/nalsem/ros2_ws/src/YDLidar-SDK/. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/core -I/home/nalsem/ros2_ws/src/YDLidar-SDK/src -I/home/nalsem/ros2_ws/src/YDLidar-SDK -I/home/nalsem/ros2_ws/build/ydlidar_sdk -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test/.. -I/home/nalsem/ros2_ws/src/YDLidar-SDK/test/.   -std=c++11   -fPIC -o CMakeFiles/lidar_test.dir/lidar_test.cpp.o -c /home/nalsem/ros2_ws/src/YDLidar-SDK/test/lidar_test.cpp",
+  "file": "/home/nalsem/ros2_ws/src/YDLidar-SDK/test/lidar_test.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/home/nalsem/ros2_ws/src/nalsem_A/launch/nalsem_A_view.launch.py

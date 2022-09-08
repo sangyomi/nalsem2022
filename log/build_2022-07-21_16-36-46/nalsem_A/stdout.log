@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating nalsem_A.egg-info
+writing nalsem_A.egg-info/PKG-INFO
+writing dependency_links to nalsem_A.egg-info/dependency_links.txt
+writing entry points to nalsem_A.egg-info/entry_points.txt
+writing requirements to nalsem_A.egg-info/requires.txt
+writing top-level names to nalsem_A.egg-info/top_level.txt
+writing manifest file 'nalsem_A.egg-info/SOURCES.txt'
+reading manifest file 'nalsem_A.egg-info/SOURCES.txt'
+writing manifest file 'nalsem_A.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages/site.py
+Creating /home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages/nalsem-A.egg-link (link to .)
+Installing nalsem_lider script to /home/nalsem/ros2_ws/install/nalsem_A/lib/nalsem_A
+Installing nalsem_main_node script to /home/nalsem/ros2_ws/install/nalsem_A/lib/nalsem_A
+
+Installed /home/nalsem/ros2_ws/build/nalsem_A
+running install_data
+creating /home/nalsem/ros2_ws/install/nalsem_A/share/ament_index
+creating /home/nalsem/ros2_ws/install/nalsem_A/share/ament_index/resource_index
+creating /home/nalsem/ros2_ws/install/nalsem_A/share/ament_index/resource_index/packages
+copying resource/nalsem_A -> /home/nalsem/ros2_ws/install/nalsem_A/share/ament_index/resource_index/packages
+copying package.xml -> /home/nalsem/ros2_ws/install/nalsem_A/share/nalsem_A
+creating /home/nalsem/ros2_ws/install/nalsem_A/share/nalsem_A/launch
+copying launch/nalsem_A_view.launch.py -> /home/nalsem/ros2_ws/install/nalsem_A/share/nalsem_A/launch
+copying launch/nalsem_A.launch.py -> /home/nalsem/ros2_ws/install/nalsem_A/share/nalsem_A/launch

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing mecha_autoship_camera.egg-info/PKG-INFO
+writing dependency_links to mecha_autoship_camera.egg-info/dependency_links.txt
+writing entry points to mecha_autoship_camera.egg-info/entry_points.txt
+writing requirements to mecha_autoship_camera.egg-info/requires.txt
+writing top-level names to mecha_autoship_camera.egg-info/top_level.txt
+reading manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'
+writing manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages/mecha-autoship-camera.egg-link (link to .)
+Installing mecha_autoship_filtered_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+Installing mecha_autoship_image_color_filter_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+Installing mecha_autoship_image_pub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+Installing mecha_autoship_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+
+Installed /home/nalsem/ros2_ws/build/mecha_autoship_camera
+running install_data

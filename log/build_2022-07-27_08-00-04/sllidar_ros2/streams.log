@@ -1,0 +1,42 @@
+[2.983s] Invoking command in '/home/nalsem/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake --build /home/nalsem/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[3.398s] [ 85%] Built target sllidar_node
+[3.420s] [100%] Built target sllidar_client
+[3.469s] Invoked command in '/home/nalsem/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake --build /home/nalsem/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[3.718s] Invoking command in '/home/nalsem/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake --install /home/nalsem/ros2_ws/build/sllidar_ros2
+[3.758s] -- Install configuration: ""
+[3.763s] -- Execute custom install script
+[3.766s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.769s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[3.770s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.772s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.773s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.775s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[3.776s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.778s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.779s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[3.781s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.782s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.792s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.793s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[3.795s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.798s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.800s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[3.802s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[3.805s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[3.807s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[3.809s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[3.811s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[3.813s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[3.815s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[3.817s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[3.819s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[3.821s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[3.823s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[3.825s] -- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[3.862s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[3.864s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.865s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.866s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[3.868s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[3.869s] -- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[3.881s] Invoked command in '/home/nalsem/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake --install /home/nalsem/ros2_ws/build/sllidar_ros2

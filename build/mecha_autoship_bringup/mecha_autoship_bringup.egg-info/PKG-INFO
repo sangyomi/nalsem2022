@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: mecha-autoship-bringup
+Version: 0.0.0
+Summary: ROS 2 launch script for starting the mechasolution autoship 2022 project
+Home-page: UNKNOWN
+Maintainer: Max Cha
+Maintainer-email: max@mechasolution.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

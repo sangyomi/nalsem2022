@@ -1,0 +1,9 @@
+source;share/nalsem_A/hook/pythonpath.ps1
+source;share/nalsem_A/hook/pythonpath.dsv
+source;share/nalsem_A/hook/pythonpath.sh
+source;share/nalsem_A/hook/ament_prefix_path.ps1
+source;share/nalsem_A/hook/ament_prefix_path.dsv
+source;share/nalsem_A/hook/ament_prefix_path.sh
+source;../../build/nalsem_A/share/nalsem_A/hook/pythonpath_develop.ps1
+source;../../build/nalsem_A/share/nalsem_A/hook/pythonpath_develop.dsv
+source;../../build/nalsem_A/share/nalsem_A/hook/pythonpath_develop.sh

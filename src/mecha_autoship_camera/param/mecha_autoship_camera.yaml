@@ -1,0 +1,22 @@
+/**:
+  ros__parameters:
+    ##### 카메라 관련 매개변수 #####
+    camera_id: 0      # 카메라 번호
+    image_width: 600  # 이미지 가로 픽셀 크기
+    image_height: 400 # 이미지 세로 픽셀 크기
+
+    ##### OpenCV(색상 탐지) 관련 매개변수 #####
+    filter_color: "red" # 탐지할 색상 ["red", "green", "blue", "custom"]
+    # custom 값은 filter_color: "custom" 일때 적용
+    custom_h_low: 0     # h 최소값 [0-180]
+    custom_h_high: 20   # h 최대값 [0-180]
+    custom_s_low: 100   # s 최소값 [0-255]
+    custom_s_high: 255  # s 최대값 [0-255]
+    custom_v_low: 0     # v 최소값 [0-255]
+    custom_v_high: 255  # v 최대값 [0-255]
+
+    ##### OpenCV(색상 탐지) 관련 매개변수 #####
+    filter_min_area: 100  # 탐지할 도형의 최소 넓이
+    filter_shape: 0       # 탐지할 도형 [0(원), 3(삼각형), 4(사각형), 5(다각형)]
+    filter_epsilon: 0.02  # 근사화 수치
+    filter_ratio: 0.85    # 원형 탐지 수치

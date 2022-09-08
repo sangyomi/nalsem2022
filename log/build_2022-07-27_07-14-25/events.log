@@ -1,0 +1,923 @@
+[0.000000] (-) TimerEvent: {}
+[0.003454] (mecha_autoship_camera) JobQueued: {'identifier': 'mecha_autoship_camera', 'dependencies': OrderedDict()}
+[0.003616] (nalsem_A) JobQueued: {'identifier': 'nalsem_A', 'dependencies': OrderedDict()}
+[0.003828] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.003930] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.004055] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.004159] (mecha_autoship_camera) JobStarted: {'identifier': 'mecha_autoship_camera'}
+[0.085969] (nalsem_A) JobStarted: {'identifier': 'nalsem_A'}
+[0.106003] (-) TimerEvent: {}
+[0.140148] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.179662] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.206215] (-) TimerEvent: {}
+[0.307385] (-) TimerEvent: {}
+[0.408323] (-) TimerEvent: {}
+[0.509249] (-) TimerEvent: {}
+[0.609924] (-) TimerEvent: {}
+[0.710585] (-) TimerEvent: {}
+[0.811239] (-) TimerEvent: {}
+[0.911891] (-) TimerEvent: {}
+[1.012615] (-) TimerEvent: {}
+[1.113376] (-) TimerEvent: {}
+[1.214116] (-) TimerEvent: {}
+[1.315287] (-) TimerEvent: {}
+[1.416399] (-) TimerEvent: {}
+[1.517288] (-) TimerEvent: {}
+[1.618163] (-) TimerEvent: {}
+[1.718998] (-) TimerEvent: {}
+[1.820383] (-) TimerEvent: {}
+[1.921165] (-) TimerEvent: {}
+[2.021856] (-) TimerEvent: {}
+[2.122761] (-) TimerEvent: {}
+[2.223473] (-) TimerEvent: {}
+[2.324240] (-) TimerEvent: {}
+[2.387175] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[2.391541] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[2.394932] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nalsem/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/nalsem/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5790'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem/ros2_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '67108867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy')]), 'shell': False}
+[2.424839] (-) TimerEvent: {}
+[2.426279] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[2.426965] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/nalsem/ros2_ws/src/ydlidar_ros2_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nalsem/ros2_ws/install/ydlidar_ros2_driver'], 'cwd': '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5790'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem/ros2_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '67108867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy')]), 'shell': False}
+[2.525122] (-) TimerEvent: {}
+[2.626108] (-) TimerEvent: {}
+[2.726966] (-) TimerEvent: {}
+[2.827740] (-) TimerEvent: {}
+[2.928508] (-) TimerEvent: {}
+[3.029247] (-) TimerEvent: {}
+[3.052594] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.129407] (-) TimerEvent: {}
+[3.145934] (sllidar_ros2) StdoutLine: {'line': b'[ 14%] Built target sllidar_client\n'}
+[3.186222] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[3.230406] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[3.234340] (-) TimerEvent: {}
+[3.335439] (-) TimerEvent: {}
+[3.397415] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[3.441550] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nalsem/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/nalsem/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5790'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem/ros2_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '67108867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy')]), 'shell': False}
+[3.445874] (-) TimerEvent: {}
+[3.486849] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.490335] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.495766] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[3.498097] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py\n'}
+[3.500247] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[3.502511] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[3.504720] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[3.507001] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[3.509082] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[3.511129] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[3.513272] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py\n'}
+[3.515337] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[3.517465] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[3.519577] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[3.521631] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[3.523746] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[3.527482] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[3.530633] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[3.532691] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[3.534979] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[3.537994] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[3.540547] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[3.542663] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[3.545170] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[3.546009] (-) TimerEvent: {}
+[3.548348] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[3.551192] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[3.554112] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[3.557573] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[3.560153] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[3.562504] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[3.606761] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.612414] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[3.614794] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.616425] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.618296] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[3.619462] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[3.620585] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[3.628876] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[3.644417] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.646148] (-) TimerEvent: {}
+[3.747003] (-) TimerEvent: {}
+[3.847922] (-) TimerEvent: {}
+[3.946159] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.952178] (-) TimerEvent: {}
+[3.960181] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.012679] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[4.022921] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[4.052337] (-) TimerEvent: {}
+[4.092402] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[4.094765] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/nalsem/ros2_ws/src/YDLidar-SDK', '-DCMAKE_INSTALL_PREFIX=/home/nalsem/ros2_ws/install/ydlidar_sdk'], 'cwd': '/home/nalsem/ros2_ws/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5790'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem/ros2_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '67108867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2')]), 'shell': False}
+[4.152598] (-) TimerEvent: {}
+[4.253694] (-) TimerEvent: {}
+[4.304452] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.353866] (-) TimerEvent: {}
+[4.361655] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.364810] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.378567] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.395821] (ydlidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[4.454075] (-) TimerEvent: {}
+[4.555082] (-) TimerEvent: {}
+[4.655953] (-) TimerEvent: {}
+[4.675155] (ydlidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.708856] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.714631] (nalsem_A) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/nalsem/ros2_ws/install/nalsem_A', '--editable', '--build-directory', '/home/nalsem/ros2_ws/build/nalsem_A/build', '--no-deps', 'install_data', '--install-dir', '/home/nalsem/ros2_ws/install/nalsem_A'], 'cwd': '/home/nalsem/ros2_ws/build/nalsem_A', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'nalsem', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SEAT': 'seat0', 'ROS_NAMESPACE': 'nalsem_A', 'SSH_AGENT_PID': '5790', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nalsem', 'OLDPWD': '/home/nalsem/ros2_ws/src', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/nalsem/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nalsem', 'WINDOWID': '67108867', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/nalsem/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/nalsem', 'AMENT_PREFIX_PATH': '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/nalsem/ros2_ws/build/nalsem_A', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6001', 'CMAKE_PREFIX_PATH': '/home/nalsem/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[4.730807] (mecha_autoship_camera) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/nalsem/ros2_ws/install/mecha_autoship_camera', '--editable', '--build-directory', '/home/nalsem/ros2_ws/build/mecha_autoship_camera/build', '--no-deps', 'install_data', '--install-dir', '/home/nalsem/ros2_ws/install/mecha_autoship_camera'], 'cwd': '/home/nalsem/ros2_ws/build/mecha_autoship_camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'nalsem', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SEAT': 'seat0', 'ROS_NAMESPACE': 'nalsem_A', 'SSH_AGENT_PID': '5790', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nalsem', 'OLDPWD': '/home/nalsem/ros2_ws/src', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/nalsem/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nalsem', 'WINDOWID': '67108867', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/nalsem/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/nalsem', 'AMENT_PREFIX_PATH': '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/nalsem/ros2_ws/build/mecha_autoship_camera', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6001', 'CMAKE_PREFIX_PATH': '/home/nalsem/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[4.748907] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.752841] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.756139] (-) TimerEvent: {}
+[4.857051] (-) TimerEvent: {}
+[4.957854] (-) TimerEvent: {}
+[4.995648] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.999357] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.058018] (-) TimerEvent: {}
+[5.094445] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.150583] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.154135] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.158183] (-) TimerEvent: {}
+[5.175608] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.258363] (-) TimerEvent: {}
+[5.306987] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.350578] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.351232] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.358509] (-) TimerEvent: {}
+[5.376131] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.379489] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.397196] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.458674] (-) TimerEvent: {}
+[5.559383] (-) TimerEvent: {}
+[5.660081] (-) TimerEvent: {}
+[5.757554] (ydlidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.760247] (-) TimerEvent: {}
+[5.762051] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.860415] (-) TimerEvent: {}
+[5.939723] (nalsem_A) StdoutLine: {'line': b'running develop\n'}
+[5.958927] (mecha_autoship_camera) StdoutLine: {'line': b'running develop\n'}
+[5.960558] (-) TimerEvent: {}
+[6.061288] (-) TimerEvent: {}
+[6.114011] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.161451] (-) TimerEvent: {}
+[6.179753] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.184001] (ydlidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.202471] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:44 (cmake_policy):\n'}
+[6.203396] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0053 will be removed from a future version\n'}
+[6.204086] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[6.204681] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.205357] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[6.206232] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[6.206899] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[6.207547] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[6.208113] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.208731] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.209729] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:47 (cmake_policy):\n'}
+[6.210478] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0037 will be removed from a future version\n'}
+[6.211100] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[6.211676] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.212280] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[6.212880] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[6.213700] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[6.214304] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[6.214852] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.215408] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.217477] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:50 (cmake_policy):\n'}
+[6.222243] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0043 will be removed from a future version\n'}
+[6.222852] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[6.223261] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.223635] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[6.224002] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[6.224363] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[6.224712] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[6.225207] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.225607] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[6.227151] (ydlidar_sdk) StdoutLine: {'line': b'-- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) \n'}
+[6.261617] (-) TimerEvent: {}
+[6.327862] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.361781] (-) TimerEvent: {}
+[6.387915] (ydlidar_sdk) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python (found version "3.8.10") \n'}
+[6.461946] (-) TimerEvent: {}
+[6.477301] (ydlidar_sdk) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found version "3.8.10") \n'}
+[6.514323] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[6.544632] (ydlidar_sdk) StdoutLine: {'line': b'-- Found GTest: /usr/lib/aarch64-linux-gnu/libgtest.a  \n'}
+[6.562119] (-) TimerEvent: {}
+[6.662842] (-) TimerEvent: {}
+[6.675659] (nalsem_A) StdoutLine: {'line': b'running egg_info\n'}
+[6.676481] (nalsem_A) StdoutLine: {'line': b'writing nalsem_A.egg-info/PKG-INFO\n'}
+[6.677284] (nalsem_A) StdoutLine: {'line': b'writing dependency_links to nalsem_A.egg-info/dependency_links.txt\n'}
+[6.679451] (mecha_autoship_camera) StdoutLine: {'line': b'running egg_info\n'}
+[6.680025] (nalsem_A) StdoutLine: {'line': b'writing entry points to nalsem_A.egg-info/entry_points.txt\n'}
+[6.680829] (nalsem_A) StdoutLine: {'line': b'writing requirements to nalsem_A.egg-info/requires.txt\n'}
+[6.681310] (nalsem_A) StdoutLine: {'line': b'writing top-level names to nalsem_A.egg-info/top_level.txt\n'}
+[6.681734] (mecha_autoship_camera) StdoutLine: {'line': b'writing mecha_autoship_camera.egg-info/PKG-INFO\n'}
+[6.682159] (mecha_autoship_camera) StdoutLine: {'line': b'writing dependency_links to mecha_autoship_camera.egg-info/dependency_links.txt\n'}
+[6.682524] (mecha_autoship_camera) StdoutLine: {'line': b'writing entry points to mecha_autoship_camera.egg-info/entry_points.txt\n'}
+[6.682860] (mecha_autoship_camera) StdoutLine: {'line': b'writing requirements to mecha_autoship_camera.egg-info/requires.txt\n'}
+[6.683210] (mecha_autoship_camera) StdoutLine: {'line': b'writing top-level names to mecha_autoship_camera.egg-info/top_level.txt\n'}
+[6.763016] (-) TimerEvent: {}
+[6.823604] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.856772] (nalsem_A) StdoutLine: {'line': b"reading manifest file 'nalsem_A.egg-info/SOURCES.txt'\n"}
+[6.862248] (nalsem_A) StdoutLine: {'line': b"writing manifest file 'nalsem_A.egg-info/SOURCES.txt'\n"}
+[6.864310] (-) TimerEvent: {}
+[6.864809] (mecha_autoship_camera) StdoutLine: {'line': b"reading manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'\n"}
+[6.870642] (mecha_autoship_camera) StdoutLine: {'line': b"writing manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'\n"}
+[6.882860] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.964497] (-) TimerEvent: {}
+[7.051822] (nalsem_A) StdoutLine: {'line': b'running build_ext\n'}
+[7.056901] (nalsem_A) StdoutLine: {'line': b'Creating /home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages/nalsem-A.egg-link (link to .)\n'}
+[7.061331] (nalsem_A) StdoutLine: {'line': b'Installing nalsem_lider script to /home/nalsem/ros2_ws/install/nalsem_A/lib/nalsem_A\n'}
+[7.062197] (nalsem_A) StdoutLine: {'line': b'Installing nalsem_main_node script to /home/nalsem/ros2_ws/install/nalsem_A/lib/nalsem_A\n'}
+[7.063127] (nalsem_A) StdoutLine: {'line': b'\n'}
+[7.063806] (nalsem_A) StdoutLine: {'line': b'Installed /home/nalsem/ros2_ws/build/nalsem_A\n'}
+[7.064250] (nalsem_A) StdoutLine: {'line': b'running install_data\n'}
+[7.064763] (-) TimerEvent: {}
+[7.065630] (mecha_autoship_camera) StdoutLine: {'line': b'running build_ext\n'}
+[7.067968] (mecha_autoship_camera) StdoutLine: {'line': b'Creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages/mecha-autoship-camera.egg-link (link to .)\n'}
+[7.072692] (mecha_autoship_camera) StdoutLine: {'line': b'Installing mecha_autoship_filtered_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera\n'}
+[7.073626] (mecha_autoship_camera) StdoutLine: {'line': b'Installing mecha_autoship_image_color_filter_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera\n'}
+[7.074440] (mecha_autoship_camera) StdoutLine: {'line': b'Installing mecha_autoship_image_pub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera\n'}
+[7.075258] (mecha_autoship_camera) StdoutLine: {'line': b'Installing mecha_autoship_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera\n'}
+[7.076558] (mecha_autoship_camera) StdoutLine: {'line': b'\n'}
+[7.077551] (mecha_autoship_camera) StdoutLine: {'line': b'Installed /home/nalsem/ros2_ws/build/mecha_autoship_camera\n'}
+[7.078233] (mecha_autoship_camera) StdoutLine: {'line': b'running install_data\n'}
+[7.165015] (-) TimerEvent: {}
+[7.214789] (nalsem_A) CommandEnded: {'returncode': 0}
+[7.270257] (-) TimerEvent: {}
+[7.282456] (nalsem_A) JobEnded: {'identifier': 'nalsem_A', 'rc': 0}
+[7.294992] (mecha_autoship_camera) CommandEnded: {'returncode': 0}
+[7.357384] (mecha_autoship_camera) JobEnded: {'identifier': 'mecha_autoship_camera', 'rc': 0}
+[7.370448] (-) TimerEvent: {}
+[7.394685] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.470665] (-) TimerEvent: {}
+[7.571770] (-) TimerEvent: {}
+[7.585230] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.671982] (-) TimerEvent: {}
+[7.772672] (-) TimerEvent: {}
+[7.793829] (ydlidar_sdk) StdoutLine: {'line': b'-- build test is ON.....\n'}
+[7.797359] (ydlidar_sdk) StderrLine: {'line': b'CMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):\n'}
+[7.797923] (ydlidar_sdk) StderrLine: {'line': b'  The OLD behavior for policy CMP0026 will be removed from a future version\n'}
+[7.798293] (ydlidar_sdk) StderrLine: {'line': b'  of CMake.\n'}
+[7.798657] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[7.799048] (ydlidar_sdk) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[7.799522] (ydlidar_sdk) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[7.799910] (ydlidar_sdk) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[7.800318] (ydlidar_sdk) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[7.800759] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.801466] (ydlidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:162 (install_package)\n'}
+[7.801873] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[7.802230] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[7.809311] (ydlidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at cmake/install_package.cmake:191 (install):\n'}
+[7.809889] (ydlidar_sdk) StderrLine: {'line': b'  Policy CMP0062 is not set: Disallow install() of export() result.  Run\n'}
+[7.810374] (ydlidar_sdk) StderrLine: {'line': b'  "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy\n'}
+[7.810757] (ydlidar_sdk) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[7.811112] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[7.811435] (ydlidar_sdk) StderrLine: {'line': b'  The file\n'}
+[7.811753] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[7.812067] (ydlidar_sdk) StderrLine: {'line': b'    /home/nalsem/ros2_ws/build/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[7.812379] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[7.812693] (ydlidar_sdk) StderrLine: {'line': b'  was generated by the export() command.  It should not be installed with the\n'}
+[7.813085] (ydlidar_sdk) StderrLine: {'line': b'  install() command.  Use the install(EXPORT) mechanism instead.  See the\n'}
+[7.813470] (ydlidar_sdk) StderrLine: {'line': b'  cmake-packages(7) manual for more.\n'}
+[7.813834] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[7.814221] (ydlidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.814574] (ydlidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:162 (install_package)\n'}
+[7.814903] (ydlidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.815215] (ydlidar_sdk) StderrLine: {'line': b'\n'}
+[7.861947] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[7.862977] (ydlidar_sdk) StdoutLine: {'line': b'-- +===========================================================================+\n'}
+[7.863751] (ydlidar_sdk) StdoutLine: {'line': b'-- |         Resulting configuration for                             |\n'}
+[7.864137] (ydlidar_sdk) StdoutLine: {'line': b'-- +===========================================================================+\n'}
+[7.864474] (ydlidar_sdk) StdoutLine: {'line': b'--  _________________________ PLATFORM _____________________________\n'}
+[7.864795] (ydlidar_sdk) StdoutLine: {'line': b'--  Host                        : Linux4.9.140-tegraaarch64\n'}
+[7.865198] (ydlidar_sdk) StdoutLine: {'line': b'--  Is the system big endian?   :  No \n'}
+[7.865539] (ydlidar_sdk) StdoutLine: {'line': b'--  Word size (32/64 bit)       : 64\n'}
+[7.865862] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake version               : 3.16.3\n'}
+[7.866188] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake generator             : Unix Makefiles\n'}
+[7.866503] (ydlidar_sdk) StdoutLine: {'line': b'--  CMake build tool            : /usr/bin/make\n'}
+[7.866814] (ydlidar_sdk) StdoutLine: {'line': b'--  Compiler                    : GNU\n'}
+[7.867141] (ydlidar_sdk) StdoutLine: {'line': b'--  Configuration               : \n'}
+[7.867456] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[7.867767] (ydlidar_sdk) StdoutLine: {'line': b'--  __________________________ OPTIONS _____________________________\n'}
+[7.868139] (ydlidar_sdk) StdoutLine: {'line': b'--  Build YDLidar-SDK as a shared library?\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[7.868473] (ydlidar_sdk) StdoutLine: {'line': b'--  Build Examples?\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 : Yes \n'}
+[7.868800] (ydlidar_sdk) StdoutLine: {'line': b'--  Build C Sharp API?\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 :  No \n'}
+[7.869192] (ydlidar_sdk) StdoutLine: {'line': b'--  Build TEST?  \t\t\t\xe3\x80\x80\xe3\x80\x80\xe3\x80\x80 : Yes \n'}
+[7.869526] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[7.869846] (ydlidar_sdk) StdoutLine: {'line': b'--  _________________________ INSTALL _____________________\n'}
+[7.870171] (ydlidar_sdk) StdoutLine: {'line': b'--  Install prefix                    : /home/nalsem/ros2_ws/install/ydlidar_sdk\n'}
+[7.870492] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[7.870871] (ydlidar_sdk) StdoutLine: {'line': b'--  _______________________ WRAPPERS/BINDINGS ______________________\n'}
+[7.871217] (ydlidar_sdk) StdoutLine: {'line': b'--  Python bindings (pyydlidar)   :  No \n'}
+[7.871538] (ydlidar_sdk) StdoutLine: {'line': b'--   - dep: Swig found?       :  No [Version: ]\n'}
+[7.871858] (ydlidar_sdk) StdoutLine: {'line': b'--   - dep: PythonLibs found?  : Yes [Version: 3.8.10]\n'}
+[7.872254] (ydlidar_sdk) StdoutLine: {'line': b'-- \n'}
+[7.872766] (-) TimerEvent: {}
+[7.881374] (ydlidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.966743] (ydlidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[7.972955] (-) TimerEvent: {}
+[7.975512] (ydlidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/nalsem/ros2_ws/build/ydlidar_sdk\n'}
+[8.004236] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[8.006614] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'build'}
+[8.008372] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nalsem/ros2_ws/build/ydlidar_sdk', '--', '-j4', '-l4'], 'cwd': '/home/nalsem/ros2_ws/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5790'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem/ros2_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '67108867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2')]), 'shell': False}
+[8.066200] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.073115] (-) TimerEvent: {}
+[8.152182] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_sdk\x1b[0m\n'}
+[8.173323] (-) TimerEvent: {}
+[8.254102] (ydlidar_sdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o\x1b[0m\n'}
+[8.255716] (ydlidar_sdk) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o\x1b[0m\n'}
+[8.267619] (ydlidar_sdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o\x1b[0m\n'}
+[8.271389] (ydlidar_sdk) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o\x1b[0m\n'}
+[8.273503] (-) TimerEvent: {}
+[8.374605] (-) TimerEvent: {}
+[8.393160] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.404800] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.408208] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.474792] (-) TimerEvent: {}
+[8.487514] (ydlidar_sdk) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o\x1b[0m\n'}
+[8.574973] (-) TimerEvent: {}
+[8.675765] (-) TimerEvent: {}
+[8.776770] (-) TimerEvent: {}
+[8.871965] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.873059] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.876966] (-) TimerEvent: {}
+[8.977705] (-) TimerEvent: {}
+[9.078455] (-) TimerEvent: {}
+[9.179196] (-) TimerEvent: {}
+[9.279951] (-) TimerEvent: {}
+[9.296536] (ydlidar_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o\x1b[0m\n'}
+[9.380143] (-) TimerEvent: {}
+[9.480911] (-) TimerEvent: {}
+[9.551942] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.552794] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.581075] (-) TimerEvent: {}
+[9.681821] (-) TimerEvent: {}
+[9.782587] (-) TimerEvent: {}
+[9.803098] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.804972] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.882828] (-) TimerEvent: {}
+[9.983740] (-) TimerEvent: {}
+[10.048266] (ydlidar_sdk) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o\x1b[0m\n'}
+[10.053093] (ydlidar_sdk) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o\x1b[0m\n'}
+[10.083929] (-) TimerEvent: {}
+[10.184686] (-) TimerEvent: {}
+[10.285456] (-) TimerEvent: {}
+[10.366920] (ydlidar_sdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o\x1b[0m\n'}
+[10.377958] (ydlidar_sdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o\x1b[0m\n'}
+[10.378830] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[10.383085] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.385625] (-) TimerEvent: {}
+[10.486344] (-) TimerEvent: {}
+[10.587086] (-) TimerEvent: {}
+[10.688911] (-) TimerEvent: {}
+[10.789676] (-) TimerEvent: {}
+[10.890424] (-) TimerEvent: {}
+[10.991177] (-) TimerEvent: {}
+[11.091905] (-) TimerEvent: {}
+[11.192661] (-) TimerEvent: {}
+[11.293521] (-) TimerEvent: {}
+[11.394349] (-) TimerEvent: {}
+[11.495088] (-) TimerEvent: {}
+[11.595834] (-) TimerEvent: {}
+[11.696577] (-) TimerEvent: {}
+[11.778463] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[11.796772] (-) TimerEvent: {}
+[11.897548] (-) TimerEvent: {}
+[11.998285] (-) TimerEvent: {}
+[12.099031] (-) TimerEvent: {}
+[12.199819] (-) TimerEvent: {}
+[12.300619] (-) TimerEvent: {}
+[12.322383] (ydlidar_sdk) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o\x1b[0m\n'}
+[12.400811] (-) TimerEvent: {}
+[12.501621] (-) TimerEvent: {}
+[12.549031] (ydlidar_sdk) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/GS2LidarDriver.cpp.o\x1b[0m\n'}
+[12.601807] (-) TimerEvent: {}
+[12.667118] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[12.701989] (-) TimerEvent: {}
+[12.802734] (-) TimerEvent: {}
+[12.832440] (ydlidar_sdk) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o\x1b[0m\n'}
+[12.902924] (-) TimerEvent: {}
+[13.003677] (-) TimerEvent: {}
+[13.104429] (-) TimerEvent: {}
+[13.166542] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[13.204619] (-) TimerEvent: {}
+[13.305411] (-) TimerEvent: {}
+[13.344563] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[13.405576] (-) TimerEvent: {}
+[13.506299] (-) TimerEvent: {}
+[13.607024] (-) TimerEvent: {}
+[13.707806] (-) TimerEvent: {}
+[13.808586] (-) TimerEvent: {}
+[13.909945] (-) TimerEvent: {}
+[14.026451] (-) TimerEvent: {}
+[14.028980] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.113580] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.115713] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src\n'}
+[14.116625] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.126746] (-) TimerEvent: {}
+[14.187661] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.188593] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.212123] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.226925] (-) TimerEvent: {}
+[14.234539] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.254159] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[14.324305] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.325249] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.327085] (-) TimerEvent: {}
+[14.345714] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.389954] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.427284] (-) TimerEvent: {}
+[14.483168] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[14.493686] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/nalsem/ros2_ws/build/ydlidar_ros2_driver\n'}
+[14.527469] (-) TimerEvent: {}
+[14.542909] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[14.547092] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[14.547383] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5790'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem/ros2_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '67108867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy')]), 'shell': False}
+[14.627701] (-) TimerEvent: {}
+[14.728548] (-) TimerEvent: {}
+[14.799374] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[14.828268] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[14.829337] (-) TimerEvent: {}
+[14.930213] (-) TimerEvent: {}
+[14.934852] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kresult_t ydlidar::GS2LidarDriver::waitPackage(node_info*, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.935914] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:912:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[Knode_info\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[14.936668] (ydlidar_sdk) StderrLine: {'line': b'  912 |             angTransform((*node).distance_q2, package_Sample_Index, &sampleAngle, \x1b[01;35m\x1b[K&(*node).distance_q2\x1b[m\x1b[K);\n'}
+[14.937498] (ydlidar_sdk) StderrLine: {'line': b'      |                                                                                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.030392] (-) TimerEvent: {}
+[15.131110] (-) TimerEvent: {}
+[15.231842] (-) TimerEvent: {}
+[15.248976] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[15.257280] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[15.332030] (-) TimerEvent: {}
+[15.432775] (-) TimerEvent: {}
+[15.533542] (-) TimerEvent: {}
+[15.609582] (ydlidar_sdk) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o\x1b[0m\n'}
+[15.633717] (-) TimerEvent: {}
+[15.734471] (-) TimerEvent: {}
+[15.835217] (-) TimerEvent: {}
+[15.935986] (-) TimerEvent: {}
+[16.036801] (-) TimerEvent: {}
+[16.137588] (-) TimerEvent: {}
+[16.238363] (-) TimerEvent: {}
+[16.339126] (-) TimerEvent: {}
+[16.439882] (-) TimerEvent: {}
+[16.537702] (ydlidar_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o\x1b[0m\n'}
+[16.540076] (-) TimerEvent: {}
+[16.640860] (-) TimerEvent: {}
+[16.741649] (-) TimerEvent: {}
+[16.842461] (-) TimerEvent: {}
+[16.943376] (-) TimerEvent: {}
+[17.044505] (-) TimerEvent: {}
+[17.145254] (-) TimerEvent: {}
+[17.245996] (-) TimerEvent: {}
+[17.346733] (-) TimerEvent: {}
+[17.447485] (-) TimerEvent: {}
+[17.548237] (-) TimerEvent: {}
+[17.649044] (-) TimerEvent: {}
+[17.749799] (-) TimerEvent: {}
+[17.850525] (-) TimerEvent: {}
+[17.951317] (-) TimerEvent: {}
+[18.052100] (-) TimerEvent: {}
+[18.152847] (-) TimerEvent: {}
+[18.253653] (-) TimerEvent: {}
+[18.354449] (-) TimerEvent: {}
+[18.455218] (-) TimerEvent: {}
+[18.555998] (-) TimerEvent: {}
+[18.656867] (-) TimerEvent: {}
+[18.757652] (-) TimerEvent: {}
+[18.860437] (-) TimerEvent: {}
+[18.961406] (-) TimerEvent: {}
+[19.062180] (-) TimerEvent: {}
+[19.162946] (-) TimerEvent: {}
+[19.263684] (-) TimerEvent: {}
+[19.364497] (-) TimerEvent: {}
+[19.430950] (ydlidar_sdk) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX static library libydlidar_sdk.a\x1b[0m\n'}
+[19.464668] (-) TimerEvent: {}
+[19.565435] (-) TimerEvent: {}
+[19.666176] (-) TimerEvent: {}
+[19.673886] (ydlidar_sdk) StdoutLine: {'line': b'[ 53%] Built target ydlidar_sdk\n'}
+[19.722240] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tof_test\x1b[0m\n'}
+[19.766356] (-) TimerEvent: {}
+[19.802716] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gs_test\x1b[0m\n'}
+[19.810811] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target et_test\x1b[0m\n'}
+[19.812104] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tri_test\x1b[0m\n'}
+[19.864046] (ydlidar_sdk) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o\x1b[0m\n'}
+[19.866536] (-) TimerEvent: {}
+[19.880839] (ydlidar_sdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object samples/CMakeFiles/gs_test.dir/gs_test.cpp.o\x1b[0m\n'}
+[19.904776] (ydlidar_sdk) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object samples/CMakeFiles/et_test.dir/et_test.cpp.o\x1b[0m\n'}
+[19.937361] (ydlidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object samples/CMakeFiles/tri_test.dir/tri_test.cpp.o\x1b[0m\n'}
+[19.966734] (-) TimerEvent: {}
+[20.067501] (-) TimerEvent: {}
+[20.168232] (-) TimerEvent: {}
+[20.269050] (-) TimerEvent: {}
+[20.369761] (-) TimerEvent: {}
+[20.470493] (-) TimerEvent: {}
+[20.571240] (-) TimerEvent: {}
+[20.671974] (-) TimerEvent: {}
+[20.772745] (-) TimerEvent: {}
+[20.873630] (-) TimerEvent: {}
+[20.974387] (-) TimerEvent: {}
+[21.075157] (-) TimerEvent: {}
+[21.175897] (-) TimerEvent: {}
+[21.276649] (-) TimerEvent: {}
+[21.377481] (-) TimerEvent: {}
+[21.478268] (-) TimerEvent: {}
+[21.579026] (-) TimerEvent: {}
+[21.679759] (-) TimerEvent: {}
+[21.780493] (-) TimerEvent: {}
+[21.881267] (-) TimerEvent: {}
+[21.982000] (-) TimerEvent: {}
+[22.082749] (-) TimerEvent: {}
+[22.183499] (-) TimerEvent: {}
+[22.284286] (-) TimerEvent: {}
+[22.385075] (-) TimerEvent: {}
+[22.485846] (-) TimerEvent: {}
+[22.586599] (-) TimerEvent: {}
+[22.687355] (-) TimerEvent: {}
+[22.788111] (-) TimerEvent: {}
+[22.888837] (-) TimerEvent: {}
+[22.989617] (-) TimerEvent: {}
+[23.090369] (-) TimerEvent: {}
+[23.121286] (ydlidar_sdk) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable ../et_test\x1b[0m\n'}
+[23.190572] (-) TimerEvent: {}
+[23.291340] (-) TimerEvent: {}
+[23.392114] (-) TimerEvent: {}
+[23.492897] (-) TimerEvent: {}
+[23.593667] (-) TimerEvent: {}
+[23.694880] (-) TimerEvent: {}
+[23.795775] (-) TimerEvent: {}
+[23.821265] (ydlidar_sdk) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX executable ../tof_test\x1b[0m\n'}
+[23.822182] (ydlidar_sdk) StdoutLine: {'line': b'[ 73%] Built target et_test\n'}
+[23.895919] (-) TimerEvent: {}
+[23.980372] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tmini_test\x1b[0m\n'}
+[23.996107] (-) TimerEvent: {}
+[24.068740] (ydlidar_sdk) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable ../gs_test\x1b[0m\n'}
+[24.072602] (ydlidar_sdk) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object samples/CMakeFiles/tmini_test.dir/tmini_test.cpp.o\x1b[0m\n'}
+[24.096306] (-) TimerEvent: {}
+[24.113742] (ydlidar_sdk) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable ../tri_test\x1b[0m\n'}
+[24.196496] (-) TimerEvent: {}
+[24.297346] (-) TimerEvent: {}
+[24.398097] (-) TimerEvent: {}
+[24.498826] (-) TimerEvent: {}
+[24.599595] (-) TimerEvent: {}
+[24.700332] (-) TimerEvent: {}
+[24.791285] (ydlidar_sdk) StdoutLine: {'line': b'[ 83%] Built target tof_test\n'}
+[24.800524] (-) TimerEvent: {}
+[24.845721] (ydlidar_sdk) StdoutLine: {'line': b'[ 83%] Built target gs_test\n'}
+[24.887356] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_c_api_test\x1b[0m\n'}
+[24.900725] (-) TimerEvent: {}
+[24.972828] (ydlidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar_test\x1b[0m\n'}
+[24.989688] (ydlidar_sdk) StdoutLine: {'line': b'[ 83%] Built target tri_test\n'}
+[24.993780] (ydlidar_sdk) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o\x1b[0m\n'}
+[25.000901] (-) TimerEvent: {}
+[25.050843] (ydlidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[Kcc1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcommand line option \xe2\x80\x98\x1b[01m\x1b[K-std=c++11\x1b[m\x1b[K\xe2\x80\x99 is valid for C++/ObjC++ but not for C\n'}
+[25.070287] (ydlidar_sdk) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o\x1b[0m\n'}
+[25.101088] (-) TimerEvent: {}
+[25.130810] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[25.131979] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:163:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[25.132908] (ydlidar_ros2_driver) StderrLine: {'line': b'  163 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[25.133761] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.134637] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:164:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[25.135358] (ydlidar_ros2_driver) StderrLine: {'line': b'  164 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[25.135992] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[25.137772] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:165:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[25.138619] (ydlidar_ros2_driver) StderrLine: {'line': b'  165 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[25.139375] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[25.163134] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[25.164053] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:173:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[25.164982] (ydlidar_ros2_driver) StderrLine: {'line': b'  173 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[25.165825] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.166772] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:174:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[25.167621] (ydlidar_ros2_driver) StderrLine: {'line': b'  174 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[25.168392] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[25.169545] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:175:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[25.170387] (ydlidar_ros2_driver) StderrLine: {'line': b'  175 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[25.171177] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[25.201264] (-) TimerEvent: {}
+[25.302031] (-) TimerEvent: {}
+[25.307074] (ydlidar_sdk) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable ../lidar_c_api_test\x1b[0m\n'}
+[25.402219] (-) TimerEvent: {}
+[25.502990] (-) TimerEvent: {}
+[25.603771] (-) TimerEvent: {}
+[25.704524] (-) TimerEvent: {}
+[25.805292] (-) TimerEvent: {}
+[25.906051] (-) TimerEvent: {}
+[26.006801] (-) TimerEvent: {}
+[26.055161] (ydlidar_sdk) StdoutLine: {'line': b'[ 93%] Built target lidar_c_api_test\n'}
+[26.106985] (-) TimerEvent: {}
+[26.207740] (-) TimerEvent: {}
+[26.308493] (-) TimerEvent: {}
+[26.409265] (-) TimerEvent: {}
+[26.510012] (-) TimerEvent: {}
+[26.610746] (-) TimerEvent: {}
+[26.711490] (-) TimerEvent: {}
+[26.812235] (-) TimerEvent: {}
+[26.913011] (-) TimerEvent: {}
+[27.013777] (-) TimerEvent: {}
+[27.114519] (-) TimerEvent: {}
+[27.215272] (-) TimerEvent: {}
+[27.309734] (ydlidar_sdk) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable ../tmini_test\x1b[0m\n'}
+[27.315460] (-) TimerEvent: {}
+[27.416199] (-) TimerEvent: {}
+[27.516997] (-) TimerEvent: {}
+[27.617743] (-) TimerEvent: {}
+[27.718480] (-) TimerEvent: {}
+[27.800658] (ydlidar_sdk) StdoutLine: {'line': b'[ 96%] Built target tmini_test\n'}
+[27.818654] (-) TimerEvent: {}
+[27.919390] (-) TimerEvent: {}
+[28.020134] (-) TimerEvent: {}
+[28.120866] (-) TimerEvent: {}
+[28.221622] (-) TimerEvent: {}
+[28.322356] (-) TimerEvent: {}
+[28.423078] (-) TimerEvent: {}
+[28.523800] (-) TimerEvent: {}
+[28.624578] (-) TimerEvent: {}
+[28.725346] (-) TimerEvent: {}
+[28.826144] (-) TimerEvent: {}
+[28.926947] (-) TimerEvent: {}
+[29.027694] (-) TimerEvent: {}
+[29.128440] (-) TimerEvent: {}
+[29.229195] (-) TimerEvent: {}
+[29.323416] (ydlidar_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_test\x1b[0m\n'}
+[29.329419] (-) TimerEvent: {}
+[29.430149] (-) TimerEvent: {}
+[29.530891] (-) TimerEvent: {}
+[29.631598] (-) TimerEvent: {}
+[29.732550] (-) TimerEvent: {}
+[29.833569] (-) TimerEvent: {}
+[29.835442] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target lidar_test\n'}
+[29.879712] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[29.933848] (-) TimerEvent: {}
+[30.034848] (-) TimerEvent: {}
+[30.083145] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'install'}
+[30.084180] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nalsem/ros2_ws/build/ydlidar_sdk'], 'cwd': '/home/nalsem/ros2_ws/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5790'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem/ros2_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '67108867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2')]), 'shell': False}
+[30.122853] (ydlidar_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.123751] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/base/datatype.h\n'}
+[30.124468] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/base/locker.h\n'}
+[30.125238] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/base/thread.h\n'}
+[30.125969] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/base/timer.h\n'}
+[30.126678] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/base/typedef.h\n'}
+[30.127401] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/base/utils.h\n'}
+[30.128128] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/base/v8stdint.h\n'}
+[30.128792] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h\n'}
+[30.129719] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h\n'}
+[30.130483] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h\n'}
+[30.131298] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h\n'}
+[30.132038] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h\n'}
+[30.132792] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h\n'}
+[30.133718] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h\n'}
+[30.134718] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/math/angles.h\n'}
+[30.135249] (-) TimerEvent: {}
+[30.136375] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h\n'}
+[30.137221] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h\n'}
+[30.137874] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h\n'}
+[30.138560] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/network/StatTimer.h\n'}
+[30.139264] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/serial/common.h\n'}
+[30.139967] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/serial/serial.h\n'}
+[30.141091] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h\n'}
+[30.141868] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h\n'}
+[30.142576] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h\n'}
+[30.143411] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/src/CYdLidar.h\n'}
+[30.144362] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h\n'}
+[30.145711] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/src/GS2LidarDriver.h\n'}
+[30.147317] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h\n'}
+[30.148126] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h\n'}
+[30.148871] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h\n'}
+[30.149626] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h\n'}
+[30.150373] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/include/ydlidar_config.h\n'}
+[30.150986] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a\n'}
+[30.159429] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc\n'}
+[30.160330] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake\n'}
+[30.161115] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[30.172196] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake\n'}
+[30.172884] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake\n'}
+[30.173523] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK\n'}
+[30.174042] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in\n'}
+[30.174587] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in\n'}
+[30.175321] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in\n'}
+[30.176036] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in\n'}
+[30.176692] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common\n'}
+[30.177484] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake\n'}
+[30.178322] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake\n'}
+[30.178860] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake\n'}
+[30.179401] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in\n'}
+[30.180578] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake\n'}
+[30.181460] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt\n'}
+[30.182226] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md\n'}
+[30.182961] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc\n'}
+[30.183688] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf\n'}
+[30.184258] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md\n'}
+[30.184799] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images\n'}
+[30.185685] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png\n'}
+[30.186318] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png\n'}
+[30.187133] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png\n'}
+[30.187904] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png\n'}
+[30.188714] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg\n'}
+[30.189566] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png\n'}
+[30.190259] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png\n'}
+[30.190740] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png\n'}
+[30.191214] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png\n'}
+[30.191792] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png\n'}
+[30.192760] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png\n'}
+[30.193502] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png\n'}
+[30.194512] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png\n'}
+[30.195317] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf\n'}
+[30.196072] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html\n'}
+[30.196838] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md\n'}
+[30.197961] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto\n'}
+[30.198741] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md\n'}
+[30.199482] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images\n'}
+[30.200176] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png\n'}
+[30.201008] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png\n'}
+[30.201626] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png\n'}
+[30.202283] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png\n'}
+[30.203001] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png\n'}
+[30.203747] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png\n'}
+[30.204354] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png\n'}
+[30.205170] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png\n'}
+[30.206043] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png\n'}
+[30.206929] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png\n'}
+[30.207460] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png\n'}
+[30.207955] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode\n'}
+[30.208428] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg\n'}
+[30.211780] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png\n'}
+[30.216152] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png\n'}
+[30.217088] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md\n'}
+[30.217931] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md\n'}
+[30.218806] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md\n'}
+[30.219617] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md\n'}
+[30.220444] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md\n'}
+[30.221479] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md\n'}
+[30.222210] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md\n'}
+[30.225579] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials\n'}
+[30.226245] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md\n'}
+[30.226818] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md\n'}
+[30.227572] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md\n'}
+[30.228103] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md\n'}
+[30.228653] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md\n'}
+[30.229259] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf\n'}
+[30.234462] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs\n'}
+[30.235476] (-) TimerEvent: {}
+[30.236624] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md\n'}
+[30.237655] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md\n'}
+[30.238416] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md\n'}
+[30.241806] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md\n'}
+[30.242522] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md\n'}
+[30.243225] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md\n'}
+[30.243740] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md\n'}
+[30.244420] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md\n'}
+[30.245026] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md\n'}
+[30.245569] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md\n'}
+[30.246075] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart\n'}
+[30.249443] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md\n'}
+[30.250264] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md\n'}
+[30.250775] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md\n'}
+[30.251280] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/startup/initenv.sh\n'}
+[30.251772] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/bin/et_test\n'}
+[30.253157] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/bin/gs_test\n'}
+[30.257544] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/bin/tmini_test\n'}
+[30.261744] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/bin/tof_test\n'}
+[30.280769] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/bin/tri_test\n'}
+[30.282747] (ydlidar_sdk) StdoutLine: {'line': b'-- Installing: /home/nalsem/ros2_ws/install/ydlidar_sdk/bin/lidar_c_api_test\n'}
+[30.300354] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[30.339199] (-) TimerEvent: {}
+[30.393272] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 0}
+[30.439439] (-) TimerEvent: {}
+[30.540159] (-) TimerEvent: {}
+[30.640966] (-) TimerEvent: {}
+[30.741697] (-) TimerEvent: {}
+[30.842421] (-) TimerEvent: {}
+[30.943141] (-) TimerEvent: {}
+[31.043943] (-) TimerEvent: {}
+[31.145261] (-) TimerEvent: {}
+[31.245974] (-) TimerEvent: {}
+[31.346648] (-) TimerEvent: {}
+[31.447341] (-) TimerEvent: {}
+[31.548039] (-) TimerEvent: {}
+[31.648793] (-) TimerEvent: {}
+[31.749531] (-) TimerEvent: {}
+[31.850283] (-) TimerEvent: {}
+[31.951051] (-) TimerEvent: {}
+[32.051740] (-) TimerEvent: {}
+[32.152474] (-) TimerEvent: {}
+[32.253182] (-) TimerEvent: {}
+[32.353861] (-) TimerEvent: {}
+[32.454593] (-) TimerEvent: {}
+[32.555386] (-) TimerEvent: {}
+[32.656122] (-) TimerEvent: {}
+[32.756876] (-) TimerEvent: {}
+[32.857572] (-) TimerEvent: {}
+[32.958245] (-) TimerEvent: {}
+[33.058991] (-) TimerEvent: {}
+[33.159666] (-) TimerEvent: {}
+[33.260394] (-) TimerEvent: {}
+[33.361271] (-) TimerEvent: {}
+[33.461955] (-) TimerEvent: {}
+[33.562618] (-) TimerEvent: {}
+[33.663286] (-) TimerEvent: {}
+[33.764260] (-) TimerEvent: {}
+[33.865031] (-) TimerEvent: {}
+[33.965760] (-) TimerEvent: {}
+[34.066495] (-) TimerEvent: {}
+[34.167233] (-) TimerEvent: {}
+[34.267902] (-) TimerEvent: {}
+[34.368585] (-) TimerEvent: {}
+[34.469294] (-) TimerEvent: {}
+[34.569967] (-) TimerEvent: {}
+[34.635710] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[34.670198] (-) TimerEvent: {}
+[34.770914] (-) TimerEvent: {}
+[34.871747] (-) TimerEvent: {}
+[34.972790] (-) TimerEvent: {}
+[35.073593] (-) TimerEvent: {}
+[35.174355] (-) TimerEvent: {}
+[35.275164] (-) TimerEvent: {}
+[35.375964] (-) TimerEvent: {}
+[35.476617] (-) TimerEvent: {}
+[35.577328] (-) TimerEvent: {}
+[35.678046] (-) TimerEvent: {}
+[35.778695] (-) TimerEvent: {}
+[35.820737] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_node\n'}
+[35.878866] (-) TimerEvent: {}
+[35.979555] (-) TimerEvent: {}
+[36.080246] (-) TimerEvent: {}
+[36.180979] (-) TimerEvent: {}
+[36.281677] (-) TimerEvent: {}
+[36.382333] (-) TimerEvent: {}
+[36.483044] (-) TimerEvent: {}
+[36.583742] (-) TimerEvent: {}
+[36.684448] (-) TimerEvent: {}
+[36.785173] (-) TimerEvent: {}
+[36.885867] (-) TimerEvent: {}
+[36.986579] (-) TimerEvent: {}
+[37.087288] (-) TimerEvent: {}
+[37.187935] (-) TimerEvent: {}
+[37.288602] (-) TimerEvent: {}
+[37.389295] (-) TimerEvent: {}
+[37.489976] (-) TimerEvent: {}
+[37.590634] (-) TimerEvent: {}
+[37.691395] (-) TimerEvent: {}
+[37.792095] (-) TimerEvent: {}
+[37.892804] (-) TimerEvent: {}
+[37.993530] (-) TimerEvent: {}
+[38.094235] (-) TimerEvent: {}
+[38.194943] (-) TimerEvent: {}
+[38.295641] (-) TimerEvent: {}
+[38.396314] (-) TimerEvent: {}
+[38.497026] (-) TimerEvent: {}
+[38.601057] (-) TimerEvent: {}
+[38.701725] (-) TimerEvent: {}
+[38.802418] (-) TimerEvent: {}
+[38.903056] (-) TimerEvent: {}
+[39.003818] (-) TimerEvent: {}
+[39.104528] (-) TimerEvent: {}
+[39.205243] (-) TimerEvent: {}
+[39.306026] (-) TimerEvent: {}
+[39.377607] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[39.406184] (-) TimerEvent: {}
+[39.506801] (-) TimerEvent: {}
+[39.607504] (-) TimerEvent: {}
+[39.708253] (-) TimerEvent: {}
+[39.809068] (-) TimerEvent: {}
+[39.909814] (-) TimerEvent: {}
+[40.010464] (-) TimerEvent: {}
+[40.111150] (-) TimerEvent: {}
+[40.211768] (-) TimerEvent: {}
+[40.312498] (-) TimerEvent: {}
+[40.413223] (-) TimerEvent: {}
+[40.466619] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[40.509323] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[40.513365] (-) TimerEvent: {}
+[40.593645] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[40.595561] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5790'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem/ros2_ws/src'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '67108867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5706,unix/nalsem-desktop:/tmp/.ICE-unix/5706'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy')]), 'shell': False}
+[40.613616] (-) TimerEvent: {}
+[40.632250] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.633936] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[40.635654] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[40.669400] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[40.702771] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[40.713748] (-) TimerEvent: {}
+[40.733124] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[40.764428] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[40.795480] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[40.813972] (-) TimerEvent: {}
+[40.830205] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[40.865567] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[40.897709] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[40.914150] (-) TimerEvent: {}
+[40.929256] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[40.960716] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[40.991500] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[41.014385] (-) TimerEvent: {}
+[41.023730] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[41.056826] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[41.087327] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[41.114558] (-) TimerEvent: {}
+[41.118793] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[41.150137] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[41.180771] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[41.212257] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[41.214697] (-) TimerEvent: {}
+[41.244900] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[41.275908] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[41.306819] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[41.314921] (-) TimerEvent: {}
+[41.339009] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[41.378357] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[41.419922] (-) TimerEvent: {}
+[41.526884] (-) TimerEvent: {}
+[41.569726] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[41.573262] (-) EventReactorShutdown: {}

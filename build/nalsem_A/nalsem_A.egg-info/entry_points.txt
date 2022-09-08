@@ -1,0 +1,4 @@
+[console_scripts]
+nalsem_lider = nalsem_A.nalsem_lider:main
+nalsem_main_node = nalsem_A.nalsem_main_node:main
+

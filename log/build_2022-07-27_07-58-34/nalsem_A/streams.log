@@ -1,0 +1,18 @@
+[5.473s] Invoking command in '/home/nalsem/ros2_ws/build/nalsem_A': PYTHONPATH=/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nalsem/ros2_ws/install/nalsem_A --editable --build-directory /home/nalsem/ros2_ws/build/nalsem_A/build --no-deps install_data --install-dir /home/nalsem/ros2_ws/install/nalsem_A
+[6.660s] running develop
+[7.412s] running egg_info
+[7.413s] writing nalsem_A.egg-info/PKG-INFO
+[7.414s] writing dependency_links to nalsem_A.egg-info/dependency_links.txt
+[7.414s] writing entry points to nalsem_A.egg-info/entry_points.txt
+[7.416s] writing requirements to nalsem_A.egg-info/requires.txt
+[7.416s] writing top-level names to nalsem_A.egg-info/top_level.txt
+[7.589s] reading manifest file 'nalsem_A.egg-info/SOURCES.txt'
+[7.604s] writing manifest file 'nalsem_A.egg-info/SOURCES.txt'
+[7.794s] running build_ext
+[7.808s] Creating /home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages/nalsem-A.egg-link (link to .)
+[7.808s] Installing nalsem_lider script to /home/nalsem/ros2_ws/install/nalsem_A/lib/nalsem_A
+[7.809s] Installing nalsem_main_node script to /home/nalsem/ros2_ws/install/nalsem_A/lib/nalsem_A
+[7.809s] 
+[7.810s] Installed /home/nalsem/ros2_ws/build/nalsem_A
+[7.811s] running install_data
+[7.961s] Invoked command in '/home/nalsem/ros2_ws/build/nalsem_A' returned '0': PYTHONPATH=/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nalsem/ros2_ws/install/nalsem_A --editable --build-directory /home/nalsem/ros2_ws/build/nalsem_A/build --no-deps install_data --install-dir /home/nalsem/ros2_ws/install/nalsem_A

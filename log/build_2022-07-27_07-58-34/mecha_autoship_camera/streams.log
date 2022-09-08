@@ -1,0 +1,20 @@
+[5.546s] Invoking command in '/home/nalsem/ros2_ws/build/mecha_autoship_camera': PYTHONPATH=/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nalsem/ros2_ws/install/mecha_autoship_camera --editable --build-directory /home/nalsem/ros2_ws/build/mecha_autoship_camera/build --no-deps install_data --install-dir /home/nalsem/ros2_ws/install/mecha_autoship_camera
+[6.719s] running develop
+[7.483s] running egg_info
+[7.484s] writing mecha_autoship_camera.egg-info/PKG-INFO
+[7.485s] writing dependency_links to mecha_autoship_camera.egg-info/dependency_links.txt
+[7.487s] writing entry points to mecha_autoship_camera.egg-info/entry_points.txt
+[7.488s] writing requirements to mecha_autoship_camera.egg-info/requires.txt
+[7.488s] writing top-level names to mecha_autoship_camera.egg-info/top_level.txt
+[7.689s] reading manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'
+[7.707s] writing manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'
+[7.913s] running build_ext
+[7.928s] Creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages/mecha-autoship-camera.egg-link (link to .)
+[7.937s] Installing mecha_autoship_filtered_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+[7.938s] Installing mecha_autoship_image_color_filter_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+[7.939s] Installing mecha_autoship_image_pub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+[7.939s] Installing mecha_autoship_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+[7.942s] 
+[7.951s] Installed /home/nalsem/ros2_ws/build/mecha_autoship_camera
+[7.954s] running install_data
+[8.105s] Invoked command in '/home/nalsem/ros2_ws/build/mecha_autoship_camera' returned '0': PYTHONPATH=/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nalsem/ros2_ws/install/mecha_autoship_camera --editable --build-directory /home/nalsem/ros2_ws/build/mecha_autoship_camera/build --no-deps install_data --install-dir /home/nalsem/ros2_ws/install/mecha_autoship_camera

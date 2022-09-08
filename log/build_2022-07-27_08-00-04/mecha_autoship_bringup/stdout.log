@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing mecha_autoship_bringup.egg-info/PKG-INFO
+writing dependency_links to mecha_autoship_bringup.egg-info/dependency_links.txt
+writing entry points to mecha_autoship_bringup.egg-info/entry_points.txt
+writing requirements to mecha_autoship_bringup.egg-info/requires.txt
+writing top-level names to mecha_autoship_bringup.egg-info/top_level.txt
+reading manifest file 'mecha_autoship_bringup.egg-info/SOURCES.txt'
+writing manifest file 'mecha_autoship_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nalsem/ros2_ws/install/mecha_autoship_bringup/lib/python3.8/site-packages/mecha-autoship-bringup.egg-link (link to .)
+Installing mecha_autoship_lidar_node script to /home/nalsem/ros2_ws/install/mecha_autoship_bringup/lib/mecha_autoship_bringup
+Installing mecha_autoship_mcu_node script to /home/nalsem/ros2_ws/install/mecha_autoship_bringup/lib/mecha_autoship_bringup
+
+Installed /home/nalsem/ros2_ws/build/mecha_autoship_bringup
+running install_data

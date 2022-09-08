@@ -1,0 +1,815 @@
+[0.000000] (-) TimerEvent: {}
+[0.004293] (mecha_autoship_camera) JobQueued: {'identifier': 'mecha_autoship_camera', 'dependencies': OrderedDict()}
+[0.004450] (nalsem_A) JobQueued: {'identifier': 'nalsem_A', 'dependencies': OrderedDict()}
+[0.004731] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.005007] (mecha_autoship_camera) JobStarted: {'identifier': 'mecha_autoship_camera'}
+[0.063747] (-) TimerEvent: {}
+[0.079462] (nalsem_A) JobStarted: {'identifier': 'nalsem_A'}
+[0.129088] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.164128] (-) TimerEvent: {}
+[0.265334] (-) TimerEvent: {}
+[0.366245] (-) TimerEvent: {}
+[0.466943] (-) TimerEvent: {}
+[0.567583] (-) TimerEvent: {}
+[0.668270] (-) TimerEvent: {}
+[0.768902] (-) TimerEvent: {}
+[0.869588] (-) TimerEvent: {}
+[0.970258] (-) TimerEvent: {}
+[1.070920] (-) TimerEvent: {}
+[1.171790] (-) TimerEvent: {}
+[1.272704] (-) TimerEvent: {}
+[1.373419] (-) TimerEvent: {}
+[1.474090] (-) TimerEvent: {}
+[1.574723] (-) TimerEvent: {}
+[1.675462] (-) TimerEvent: {}
+[1.776165] (-) TimerEvent: {}
+[1.876812] (-) TimerEvent: {}
+[1.977462] (-) TimerEvent: {}
+[2.082196] (-) TimerEvent: {}
+[2.111639] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[2.112429] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/nalsem/ros2_ws/src/sllidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nalsem/ros2_ws/install/sllidar_ros2'], 'cwd': '/home/nalsem/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5852'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '85983235'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5768,unix/nalsem-desktop:/tmp/.ICE-unix/5768'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy')]), 'shell': False}
+[2.183204] (-) TimerEvent: {}
+[2.284135] (-) TimerEvent: {}
+[2.384922] (-) TimerEvent: {}
+[2.485643] (-) TimerEvent: {}
+[2.586851] (-) TimerEvent: {}
+[2.687628] (-) TimerEvent: {}
+[2.788280] (-) TimerEvent: {}
+[2.832925] (sllidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.888459] (-) TimerEvent: {}
+[2.989135] (-) TimerEvent: {}
+[3.089950] (-) TimerEvent: {}
+[3.190671] (-) TimerEvent: {}
+[3.291384] (-) TimerEvent: {}
+[3.308876] (sllidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.338175] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.391605] (-) TimerEvent: {}
+[3.492468] (-) TimerEvent: {}
+[3.593172] (-) TimerEvent: {}
+[3.602528] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.607943] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.693335] (-) TimerEvent: {}
+[3.794053] (-) TimerEvent: {}
+[3.876191] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.894202] (-) TimerEvent: {}
+[3.928270] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.928873] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.939683] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.994404] (-) TimerEvent: {}
+[4.095134] (-) TimerEvent: {}
+[4.195868] (-) TimerEvent: {}
+[4.231456] (sllidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.236102] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.296030] (-) TimerEvent: {}
+[4.396722] (-) TimerEvent: {}
+[4.497544] (-) TimerEvent: {}
+[4.567382] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.597697] (-) TimerEvent: {}
+[4.618868] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.621002] (sllidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.647296] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.697875] (-) TimerEvent: {}
+[4.798724] (-) TimerEvent: {}
+[4.815013] (sllidar_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.815942] (sllidar_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.859624] (nalsem_A) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/nalsem/ros2_ws/install/nalsem_A', '--editable', '--build-directory', '/home/nalsem/ros2_ws/build/nalsem_A/build', '--no-deps', 'install_data', '--install-dir', '/home/nalsem/ros2_ws/install/nalsem_A'], 'cwd': '/home/nalsem/ros2_ws/build/nalsem_A', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'nalsem', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SEAT': 'seat0', 'ROS_NAMESPACE': 'nalsem_A', 'SSH_AGENT_PID': '5852', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nalsem', 'OLDPWD': '/home/nalsem', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/nalsem/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nalsem', 'WINDOWID': '85983235', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nalsem-desktop:@/tmp/.ICE-unix/5768,unix/nalsem-desktop:/tmp/.ICE-unix/5768', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/nalsem/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/nalsem', 'AMENT_PREFIX_PATH': '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/nalsem/ros2_ws/build/nalsem_A', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6001', 'CMAKE_PREFIX_PATH': '/home/nalsem/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[4.872329] (mecha_autoship_camera) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/nalsem/ros2_ws/install/mecha_autoship_camera', '--editable', '--build-directory', '/home/nalsem/ros2_ws/build/mecha_autoship_camera/build', '--no-deps', 'install_data', '--install-dir', '/home/nalsem/ros2_ws/install/mecha_autoship_camera'], 'cwd': '/home/nalsem/ros2_ws/build/mecha_autoship_camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'nalsem', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SEAT': 'seat0', 'ROS_NAMESPACE': 'nalsem_A', 'SSH_AGENT_PID': '5852', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/nalsem', 'OLDPWD': '/home/nalsem', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/nalsem/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'nalsem', 'WINDOWID': '85983235', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nalsem-desktop:@/tmp/.ICE-unix/5768,unix/nalsem-desktop:/tmp/.ICE-unix/5768', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/nalsem/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/nalsem', 'AMENT_PREFIX_PATH': '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/nalsem/ros2_ws/build/mecha_autoship_camera', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6001', 'CMAKE_PREFIX_PATH': '/home/nalsem/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[4.898929] (-) TimerEvent: {}
+[4.999771] (-) TimerEvent: {}
+[5.100461] (-) TimerEvent: {}
+[5.201223] (-) TimerEvent: {}
+[5.301925] (-) TimerEvent: {}
+[5.402566] (-) TimerEvent: {}
+[5.503223] (-) TimerEvent: {}
+[5.603936] (-) TimerEvent: {}
+[5.704695] (-) TimerEvent: {}
+[5.723448] (sllidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.804853] (-) TimerEvent: {}
+[5.889680] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.905016] (-) TimerEvent: {}
+[5.931241] (mecha_autoship_camera) StdoutLine: {'line': b'running develop\n'}
+[5.936245] (nalsem_A) StdoutLine: {'line': b'running develop\n'}
+[6.005180] (-) TimerEvent: {}
+[6.105830] (-) TimerEvent: {}
+[6.172564] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.206001] (-) TimerEvent: {}
+[6.215825] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.306162] (-) TimerEvent: {}
+[6.406803] (-) TimerEvent: {}
+[6.507461] (-) TimerEvent: {}
+[6.549829] (mecha_autoship_camera) StdoutLine: {'line': b'running egg_info\n'}
+[6.550839] (mecha_autoship_camera) StdoutLine: {'line': b'creating mecha_autoship_camera.egg-info\n'}
+[6.551365] (mecha_autoship_camera) StdoutLine: {'line': b'writing mecha_autoship_camera.egg-info/PKG-INFO\n'}
+[6.552216] (mecha_autoship_camera) StdoutLine: {'line': b'writing dependency_links to mecha_autoship_camera.egg-info/dependency_links.txt\n'}
+[6.552757] (mecha_autoship_camera) StdoutLine: {'line': b'writing entry points to mecha_autoship_camera.egg-info/entry_points.txt\n'}
+[6.553416] (mecha_autoship_camera) StdoutLine: {'line': b'writing requirements to mecha_autoship_camera.egg-info/requires.txt\n'}
+[6.553960] (mecha_autoship_camera) StdoutLine: {'line': b'writing top-level names to mecha_autoship_camera.egg-info/top_level.txt\n'}
+[6.556232] (nalsem_A) StdoutLine: {'line': b'running egg_info\n'}
+[6.556918] (nalsem_A) StdoutLine: {'line': b'creating nalsem_A.egg-info\n'}
+[6.557573] (nalsem_A) StdoutLine: {'line': b'writing nalsem_A.egg-info/PKG-INFO\n'}
+[6.558488] (nalsem_A) StdoutLine: {'line': b'writing dependency_links to nalsem_A.egg-info/dependency_links.txt\n'}
+[6.559070] (nalsem_A) StdoutLine: {'line': b'writing entry points to nalsem_A.egg-info/entry_points.txt\n'}
+[6.559675] (nalsem_A) StdoutLine: {'line': b'writing requirements to nalsem_A.egg-info/requires.txt\n'}
+[6.560260] (nalsem_A) StdoutLine: {'line': b'writing top-level names to nalsem_A.egg-info/top_level.txt\n'}
+[6.562649] (mecha_autoship_camera) StdoutLine: {'line': b"writing manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'\n"}
+[6.563769] (nalsem_A) StdoutLine: {'line': b"writing manifest file 'nalsem_A.egg-info/SOURCES.txt'\n"}
+[6.607625] (-) TimerEvent: {}
+[6.703820] (sllidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.707751] (-) TimerEvent: {}
+[6.722659] (nalsem_A) StdoutLine: {'line': b"reading manifest file 'nalsem_A.egg-info/SOURCES.txt'\n"}
+[6.723417] (mecha_autoship_camera) StdoutLine: {'line': b"reading manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'\n"}
+[6.725379] (nalsem_A) StdoutLine: {'line': b"writing manifest file 'nalsem_A.egg-info/SOURCES.txt'\n"}
+[6.726225] (mecha_autoship_camera) StdoutLine: {'line': b"writing manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'\n"}
+[6.807920] (-) TimerEvent: {}
+[6.897357] (sllidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.898338] (mecha_autoship_camera) StdoutLine: {'line': b'running build_ext\n'}
+[6.898912] (nalsem_A) StdoutLine: {'line': b'running build_ext\n'}
+[6.900597] (nalsem_A) StdoutLine: {'line': b'Creating /home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages/site.py\n'}
+[6.901144] (mecha_autoship_camera) StdoutLine: {'line': b'Creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages/site.py\n'}
+[6.908086] (-) TimerEvent: {}
+[6.909771] (mecha_autoship_camera) StdoutLine: {'line': b'Creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages/mecha-autoship-camera.egg-link (link to .)\n'}
+[6.910708] (nalsem_A) StdoutLine: {'line': b'Creating /home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages/nalsem-A.egg-link (link to .)\n'}
+[6.913135] (nalsem_A) StdoutLine: {'line': b'Installing nalsem_lider script to /home/nalsem/ros2_ws/install/nalsem_A/lib/nalsem_A\n'}
+[6.913982] (mecha_autoship_camera) StdoutLine: {'line': b'Installing mecha_autoship_filtered_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera\n'}
+[6.914873] (mecha_autoship_camera) StdoutLine: {'line': b'Installing mecha_autoship_image_color_filter_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera\n'}
+[6.915897] (nalsem_A) StdoutLine: {'line': b'Installing nalsem_main_node script to /home/nalsem/ros2_ws/install/nalsem_A/lib/nalsem_A\n'}
+[6.917097] (mecha_autoship_camera) StdoutLine: {'line': b'Installing mecha_autoship_image_pub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera\n'}
+[6.918871] (nalsem_A) StdoutLine: {'line': b'\n'}
+[6.919823] (nalsem_A) StdoutLine: {'line': b'Installed /home/nalsem/ros2_ws/build/nalsem_A\n'}
+[6.920653] (mecha_autoship_camera) StdoutLine: {'line': b'Installing mecha_autoship_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera\n'}
+[6.921379] (nalsem_A) StdoutLine: {'line': b'running install_data\n'}
+[6.921926] (nalsem_A) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/nalsem_A/share/ament_index\n'}
+[6.922567] (mecha_autoship_camera) StdoutLine: {'line': b'\n'}
+[6.923191] (mecha_autoship_camera) StdoutLine: {'line': b'Installed /home/nalsem/ros2_ws/build/mecha_autoship_camera\n'}
+[6.923837] (nalsem_A) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/nalsem_A/share/ament_index/resource_index\n'}
+[6.924446] (nalsem_A) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/nalsem_A/share/ament_index/resource_index/packages\n'}
+[6.925054] (mecha_autoship_camera) StdoutLine: {'line': b'running install_data\n'}
+[6.925644] (nalsem_A) StdoutLine: {'line': b'copying resource/nalsem_A -> /home/nalsem/ros2_ws/install/nalsem_A/share/ament_index/resource_index/packages\n'}
+[6.926371] (mecha_autoship_camera) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/ament_index\n'}
+[6.927014] (mecha_autoship_camera) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/ament_index/resource_index\n'}
+[6.927663] (mecha_autoship_camera) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/ament_index/resource_index/packages\n'}
+[6.928344] (nalsem_A) StdoutLine: {'line': b'copying package.xml -> /home/nalsem/ros2_ws/install/nalsem_A/share/nalsem_A\n'}
+[6.928985] (mecha_autoship_camera) StdoutLine: {'line': b'copying resource/mecha_autoship_camera -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/ament_index/resource_index/packages\n'}
+[6.929613] (mecha_autoship_camera) StdoutLine: {'line': b'copying package.xml -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera\n'}
+[6.930314] (nalsem_A) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/nalsem_A/share/nalsem_A/launch\n'}
+[6.930967] (nalsem_A) StdoutLine: {'line': b'copying launch/nalsem_A_view.launch.py -> /home/nalsem/ros2_ws/install/nalsem_A/share/nalsem_A/launch\n'}
+[6.931629] (mecha_autoship_camera) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/launch\n'}
+[6.932236] (mecha_autoship_camera) StdoutLine: {'line': b'copying launch/mecha_autoship_camera_publisher.launch.py -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/launch\n'}
+[6.932863] (nalsem_A) StdoutLine: {'line': b'copying launch/nalsem_A.launch.py -> /home/nalsem/ros2_ws/install/nalsem_A/share/nalsem_A/launch\n'}
+[6.933463] (mecha_autoship_camera) StdoutLine: {'line': b'copying launch/mecha_autoship_camera_subscriber.launch.py -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/launch\n'}
+[6.934120] (mecha_autoship_camera) StdoutLine: {'line': b'creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/param\n'}
+[6.934789] (mecha_autoship_camera) StdoutLine: {'line': b'copying param/mecha_autoship_camera.yaml -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/param\n'}
+[7.008344] (-) TimerEvent: {}
+[7.060557] (nalsem_A) CommandEnded: {'returncode': 0}
+[7.108541] (-) TimerEvent: {}
+[7.155081] (nalsem_A) JobEnded: {'identifier': 'nalsem_A', 'rc': 0}
+[7.166928] (mecha_autoship_camera) CommandEnded: {'returncode': 0}
+[7.211905] (-) TimerEvent: {}
+[7.221869] (mecha_autoship_camera) JobEnded: {'identifier': 'mecha_autoship_camera', 'rc': 0}
+[7.312127] (-) TimerEvent: {}
+[7.378464] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.412327] (-) TimerEvent: {}
+[7.512977] (-) TimerEvent: {}
+[7.613658] (-) TimerEvent: {}
+[7.675000] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.683615] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.688700] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.713818] (-) TimerEvent: {}
+[7.814498] (-) TimerEvent: {}
+[7.915189] (-) TimerEvent: {}
+[7.964743] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.965575] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.015356] (-) TimerEvent: {}
+[8.116078] (-) TimerEvent: {}
+[8.216761] (-) TimerEvent: {}
+[8.224328] (sllidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.225541] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.316996] (-) TimerEvent: {}
+[8.417707] (-) TimerEvent: {}
+[8.429385] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[8.430154] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.517973] (-) TimerEvent: {}
+[8.618610] (-) TimerEvent: {}
+[8.677309] (sllidar_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.681867] (sllidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.718818] (-) TimerEvent: {}
+[8.819472] (-) TimerEvent: {}
+[8.920122] (-) TimerEvent: {}
+[9.020750] (-) TimerEvent: {}
+[9.121423] (-) TimerEvent: {}
+[9.222097] (-) TimerEvent: {}
+[9.322724] (-) TimerEvent: {}
+[9.423459] (-) TimerEvent: {}
+[9.434891] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[9.523668] (-) TimerEvent: {}
+[9.624291] (-) TimerEvent: {}
+[9.724961] (-) TimerEvent: {}
+[9.825674] (-) TimerEvent: {}
+[9.926397] (-) TimerEvent: {}
+[10.002962] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[10.026540] (-) TimerEvent: {}
+[10.127125] (-) TimerEvent: {}
+[10.227765] (-) TimerEvent: {}
+[10.328431] (-) TimerEvent: {}
+[10.394061] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.428648] (-) TimerEvent: {}
+[10.450255] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[10.456239] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/nalsem/ros2_ws/build/sllidar_ros2\n'}
+[10.482242] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[10.486565] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[10.492415] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nalsem/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/nalsem/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5852'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '85983235'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5768,unix/nalsem-desktop:/tmp/.ICE-unix/5768'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy')]), 'shell': False}
+[10.528920] (-) TimerEvent: {}
+[10.630060] (-) TimerEvent: {}
+[10.642929] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sllidar_client\x1b[0m\n'}
+[10.644632] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sllidar_node\x1b[0m\n'}
+[10.730214] (-) TimerEvent: {}
+[10.831002] (-) TimerEvent: {}
+[10.915258] (sllidar_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[10.916132] (sllidar_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o\x1b[0m\n'}
+[10.916901] (sllidar_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[10.931197] (-) TimerEvent: {}
+[10.944951] (sllidar_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[11.031364] (-) TimerEvent: {}
+[11.132023] (-) TimerEvent: {}
+[11.232704] (-) TimerEvent: {}
+[11.233742] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:47\x1b[m\x1b[K,\n'}
+[11.234570] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[11.235078] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[11.235551] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[11.236007] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.332876] (-) TimerEvent: {}
+[11.433576] (-) TimerEvent: {}
+[11.534293] (-) TimerEvent: {}
+[11.635057] (-) TimerEvent: {}
+[11.735860] (-) TimerEvent: {}
+[11.836718] (-) TimerEvent: {}
+[11.937446] (-) TimerEvent: {}
+[12.038215] (-) TimerEvent: {}
+[12.138960] (-) TimerEvent: {}
+[12.239732] (-) TimerEvent: {}
+[12.340477] (-) TimerEvent: {}
+[12.437811] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.438598] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.439089] (sllidar_ros2) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[12.439556] (sllidar_ros2) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[12.440336] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.440926] (-) TimerEvent: {}
+[12.442068] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.442696] (sllidar_ros2) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[12.443196] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[12.443674] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.444142] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.444591] (sllidar_ros2) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[12.444981] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.445368] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.445814] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[12.446335] (sllidar_ros2) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[12.446791] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.541138] (-) TimerEvent: {}
+[12.632759] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[12.633776] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[12.634720] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[12.635612] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[12.636541] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.637365] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.638171] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.641321] (-) TimerEvent: {}
+[12.642768] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[12.643671] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[12.644543] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[12.645371] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[12.646222] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[12.647050] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[12.648073] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.741510] (-) TimerEvent: {}
+[12.842211] (-) TimerEvent: {}
+[12.908166] (sllidar_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[12.921757] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.922519] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kordered comparison of pointer with integer zero [\x1b[01;35m\x1b[K-Wextra\x1b[m\x1b[K]\n'}
+[12.923083] (sllidar_ros2) StderrLine: {'line': b'  170 |     return ans<=\x1b[01;35m\x1b[K0\x1b[m\x1b[K?RESULT_OPERATION_FAIL:RESULT_OK;\n'}
+[12.923657] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.942384] (-) TimerEvent: {}
+[12.947593] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.948284] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[12.948786] (sllidar_ros2) StderrLine: {'line': b'  438 |         if (\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K) {\n'}
+[12.949281] (sllidar_ros2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.965363] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[12.966106] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:41\x1b[m\x1b[K,\n'}
+[12.966639] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[12.967087] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.967551] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[12.968390] (sllidar_ros2) StderrLine: {'line': b'  726 |             assert(\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K);\n'}
+[12.968963] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.042557] (-) TimerEvent: {}
+[13.143262] (-) TimerEvent: {}
+[13.163140] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knonnull argument \xe2\x80\x98\x1b[01m\x1b[Ktarget\x1b[m\x1b[K\xe2\x80\x99 compared to NULL [\x1b[01;35m\x1b[K-Wnonnull-compare\x1b[m\x1b[K]\n'}
+[13.163833] (sllidar_ros2) StderrLine: {'line': b'  722 |         const struct sockaddr* addr = &target \x1b[01;35m\x1b[K?\x1b[m\x1b[K reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;\n'}
+[13.164318] (sllidar_ros2) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.243412] (-) TimerEvent: {}
+[13.344129] (-) TimerEvent: {}
+[13.444868] (-) TimerEvent: {}
+[13.545579] (-) TimerEvent: {}
+[13.629849] (sllidar_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[13.645768] (-) TimerEvent: {}
+[13.746500] (-) TimerEvent: {}
+[13.847204] (-) TimerEvent: {}
+[13.889880] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:47\x1b[m\x1b[K,\n'}
+[13.890882] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[13.891643] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[13.892524] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[13.893358] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.947386] (-) TimerEvent: {}
+[14.048099] (-) TimerEvent: {}
+[14.148836] (-) TimerEvent: {}
+[14.249576] (-) TimerEvent: {}
+[14.350313] (-) TimerEvent: {}
+[14.451021] (-) TimerEvent: {}
+[14.551744] (-) TimerEvent: {}
+[14.628851] (sllidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[14.651923] (-) TimerEvent: {}
+[14.752625] (-) TimerEvent: {}
+[14.853344] (-) TimerEvent: {}
+[14.954056] (-) TimerEvent: {}
+[14.961343] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[14.971219] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[14.971739] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[14.972162] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[14.972583] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.973101] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.973543] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.974022] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[14.974554] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[14.975262] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[14.975688] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[14.976095] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[14.976500] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.977563] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.978554] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:47\x1b[m\x1b[K,\n'}
+[14.979058] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[14.979562] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[14.980054] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[14.980498] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.040360] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:37\x1b[m\x1b[K:\n'}
+[15.041086] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[15.041623] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[15.042189] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.054244] (-) TimerEvent: {}
+[15.154939] (-) TimerEvent: {}
+[15.173568] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[15.174393] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.174920] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wcast-function-type\x1b[m\x1b[K]\n'}
+[15.175425] (sllidar_ros2) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))\x1b[01;35m\x1b[Kproc\x1b[m\x1b[K, data);\n'}
+[15.175904] (sllidar_ros2) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[15.176695] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.177249] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.177739] (sllidar_ros2) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[15.178413] (sllidar_ros2) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[15.255114] (-) TimerEvent: {}
+[15.355857] (-) TimerEvent: {}
+[15.456558] (-) TimerEvent: {}
+[15.506019] (sllidar_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o\x1b[0m\n'}
+[15.556777] (-) TimerEvent: {}
+[15.557682] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[15.559060] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[15.559951] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[15.560785] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.561583] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.562753] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.566191] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[15.567118] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[15.569750] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.570655] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.571403] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.575529] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksl_u32 sl::crc32::cal(sl_u32, void*, sl_u16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.576471] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:77:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wparentheses\x1b[m\x1b[K]\n'}
+[15.577253] (sllidar_ros2) StderrLine: {'line': b'   77 |         sl_u8 leftBytes = \x1b[01;35m\x1b[K4 - len\x1b[m\x1b[K & 0x3;\n'}
+[15.578033] (sllidar_ros2) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[15.656964] (-) TimerEvent: {}
+[15.681518] (sllidar_ros2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o\x1b[0m\n'}
+[15.757155] (-) TimerEvent: {}
+[15.857874] (-) TimerEvent: {}
+[15.957467] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:47\x1b[m\x1b[K,\n'}
+[15.958188] (-) TimerEvent: {}
+[15.958961] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[15.959825] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[15.960309] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[15.960825] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.985154] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:37\x1b[m\x1b[K:\n'}
+[15.986908] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/hal/assert.h:1:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knull character(s) ignored\n'}
+[15.987596] (sllidar_ros2) StderrLine: {'line': b'    1 | \x1b[01;35m\x1b[K \x1b[m\x1b[K                                                                                                                                                                                                                                                                                                                        \n'}
+[15.988169] (sllidar_ros2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.058381] (-) TimerEvent: {}
+[16.159299] (-) TimerEvent: {}
+[16.250704] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[16.251755] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[16.252343] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[16.252798] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[16.253276] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[16.253958] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.254909] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.255386] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[16.255810] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[16.256223] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[16.256645] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[16.257078] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[16.257514] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.258003] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.262066] (-) TimerEvent: {}
+[16.362768] (-) TimerEvent: {}
+[16.463470] (-) TimerEvent: {}
+[16.564186] (-) TimerEvent: {}
+[16.643460] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.644166] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.644731] (sllidar_ros2) StderrLine: {'line': b'   67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[16.645250] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.646072] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.646667] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.647161] (sllidar_ros2) StderrLine: {'line': b'  101 |     u_result RPlidarDriver::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[16.647620] (sllidar_ros2) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[16.648549] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.649150] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodebuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.649662] (sllidar_ros2) StderrLine: {'line': b'  175 |     u_result RPlidarDriver::getScanDataWithInterval(\x1b[01;35m\x1b[Krplidar_response_measurement_node_t * nodebuffer\x1b[m\x1b[K, size_t & count)\n'}
+[16.650211] (sllidar_ros2) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.650685] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:112:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.651133] (sllidar_ros2) StderrLine: {'line': b'  175 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, \x1b[01;35m\x1b[Ksize_t & count\x1b[m\x1b[K)\n'}
+[16.651573] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[16.664375] (-) TimerEvent: {}
+[16.765105] (-) TimerEvent: {}
+[16.865831] (-) TimerEvent: {}
+[16.966586] (-) TimerEvent: {}
+[16.979846] (sllidar_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o\x1b[0m\n'}
+[17.029734] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#pragma once in main file\n'}
+[17.030754] (sllidar_ros2) StderrLine: {'line': b'   33 | #pragma \x1b[01;35m\x1b[Konce\x1b[m\x1b[K\n'}
+[17.031561] (sllidar_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[17.042768] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[17.043769] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[17.044302] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[17.044747] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[17.045180] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.045677] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.046248] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.047045] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[17.047567] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[17.048005] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[17.048452] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[17.048897] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.049432] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.049986] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.066775] (-) TimerEvent: {}
+[17.167507] (-) TimerEvent: {}
+[17.268222] (-) TimerEvent: {}
+[17.368942] (-) TimerEvent: {}
+[17.417507] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.418258] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:273:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.418806] (sllidar_ros2) StderrLine: {'line': b'  273 |         sl_result reset(\x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[17.419316] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.430525] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.431530] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:286:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.432386] (sllidar_ros2) StderrLine: {'line': b'  286 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[17.433213] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.438659] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.439691] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:347:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.440546] (sllidar_ros2) StderrLine: {'line': b'  347 |         sl_result startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[Ksl_u32 options = 0\x1b[m\x1b[K, LidarScanMode* outUsedScanMode = nullptr)\n'}
+[17.441336] (sllidar_ros2) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.453317] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.454330] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:534:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.455185] (sllidar_ros2) StderrLine: {'line': b'  534 |         sl_result stop(\x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[17.456005] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.459425] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.460384] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:579:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.461211] (sllidar_ros2) StderrLine: {'line': b'  579 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[17.462048] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.465938] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.466851] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:592:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.467523] (sllidar_ros2) StderrLine: {'line': b'  592 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[17.468025] (sllidar_ros2) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.469088] (-) TimerEvent: {}
+[17.470091] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.470912] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:627:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.471427] (sllidar_ros2) StderrLine: {'line': b'  627 |         sl_result getFrequency(const LidarScanMode& scanMode, \x1b[01;35m\x1b[Kconst sl_lidar_response_measurement_node_hq_t* nodes\x1b[m\x1b[K, size_t count, float& frequency)\n'}
+[17.471894] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[17.474349] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.475168] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:640:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.475678] (sllidar_ros2) StderrLine: {'line': b'  640 |         sl_result getHealth(sl_lidar_response_device_health_t& health, \x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[17.476180] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.485568] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.486490] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:730:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.487112] (sllidar_ros2) StderrLine: {'line': b'  730 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[17.487676] (sllidar_ros2) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.510143] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksl_result sl::SlamtecLidarDriver::_sendCommand(sl_u16, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.510973] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1089:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[17.511539] (sllidar_ros2) StderrLine: {'line': b' 1089 |             for (int pos = 0; \x1b[01;35m\x1b[Kpos < cmd_packet.size()\x1b[m\x1b[K; pos++) {\n'}
+[17.512084] (sllidar_ros2) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.513244] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1058:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpkt_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[17.514004] (sllidar_ros2) StderrLine: {'line': b' 1058 |             sl_u8 \x1b[01;35m\x1b[Kpkt_header\x1b[m\x1b[K[10];\n'}
+[17.514605] (sllidar_ros2) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.528028] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.528851] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1370:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[17.529390] (sllidar_ros2) StderrLine: {'line': b' 1370 |                     if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[17.529868] (sllidar_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.530944] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1379:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[17.531633] (sllidar_ros2) StderrLine: {'line': b' 1379 |                     if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[17.532094] (sllidar_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.544284] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.545128] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1577:116:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[17.545662] (sllidar_ros2) StderrLine: {'line': b' 1577 |                     const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[17.546265] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.569288] (-) TimerEvent: {}
+[17.670120] (-) TimerEvent: {}
+[17.770820] (-) TimerEvent: {}
+[17.826429] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[17.827121] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[17.827659] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[17.828140] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[17.828594] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.829085] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.829581] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.830374] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[17.830963] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[17.831436] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[17.831901] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.832405] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.832863] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.870989] (-) TimerEvent: {}
+[17.909387] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[17.910233] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:72:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[17.910828] (sllidar_ros2) StderrLine: {'line': b'   72 |     static void \x1b[01;35m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)\n'}
+[17.911348] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.912049] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:59:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::printDeprecationWarn(const char*, const char*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[17.912582] (sllidar_ros2) StderrLine: {'line': b'   59 |     static void \x1b[01;35m\x1b[KprintDeprecationWarn\x1b[m\x1b[K(const char* fn, const char* replacement)\n'}
+[17.913039] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.971170] (-) TimerEvent: {}
+[17.994571] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[17.995305] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[17.995831] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34\x1b[m\x1b[K:\n'}
+[17.996332] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.996796] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[17.997330] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.998176] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[17.999685] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34\x1b[m\x1b[K:\n'}
+[18.000293] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.001013] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[18.001594] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.071356] (-) TimerEvent: {}
+[18.172065] (-) TimerEvent: {}
+[18.268820] (sllidar_ros2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o\x1b[0m\n'}
+[18.272250] (-) TimerEvent: {}
+[18.320857] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#pragma once in main file\n'}
+[18.321783] (sllidar_ros2) StderrLine: {'line': b'   33 | #pragma \x1b[01;35m\x1b[Konce\x1b[m\x1b[K\n'}
+[18.322660] (sllidar_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.372434] (-) TimerEvent: {}
+[18.473158] (-) TimerEvent: {}
+[18.573867] (-) TimerEvent: {}
+[18.674564] (-) TimerEvent: {}
+[18.775295] (-) TimerEvent: {}
+[18.875999] (-) TimerEvent: {}
+[18.976716] (-) TimerEvent: {}
+[19.081476] (-) TimerEvent: {}
+[19.159733] (sllidar_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o\x1b[0m\n'}
+[19.181671] (-) TimerEvent: {}
+[19.242732] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#pragma once in main file\n'}
+[19.244141] (sllidar_ros2) StderrLine: {'line': b'   33 | #pragma \x1b[01;35m\x1b[Konce\x1b[m\x1b[K\n'}
+[19.245153] (sllidar_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[19.281862] (-) TimerEvent: {}
+[19.315175] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[19.316038] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[19.316459] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34\x1b[m\x1b[K:\n'}
+[19.316842] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.317240] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[19.317678] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.318572] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[19.319094] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34\x1b[m\x1b[K:\n'}
+[19.319588] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.320502] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[19.321042] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.337571] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::TcpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.338427] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:95:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[19.338982] (sllidar_ros2) StderrLine: {'line': b'   95 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[19.339491] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[19.382051] (-) TimerEvent: {}
+[19.482760] (-) TimerEvent: {}
+[19.583530] (-) TimerEvent: {}
+[19.684291] (-) TimerEvent: {}
+[19.785064] (-) TimerEvent: {}
+[19.885844] (-) TimerEvent: {}
+[19.986567] (-) TimerEvent: {}
+[20.087271] (-) TimerEvent: {}
+[20.188038] (-) TimerEvent: {}
+[20.202089] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[20.202754] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[20.203222] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34\x1b[m\x1b[K:\n'}
+[20.203664] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[20.204131] (sllidar_ros2) StderrLine: {'line': b'   58 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.204607] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.205457] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[20.206056] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34\x1b[m\x1b[K:\n'}
+[20.206565] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[20.207021] (sllidar_ros2) StderrLine: {'line': b'  295 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.207493] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.225285] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::UdpChannel::setStatus(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.226043] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:103:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.226601] (sllidar_ros2) StderrLine: {'line': b'  103 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[20.227134] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.288295] (-) TimerEvent: {}
+[20.389050] (-) TimerEvent: {}
+[20.489810] (-) TimerEvent: {}
+[20.590584] (-) TimerEvent: {}
+[20.691568] (-) TimerEvent: {}
+[20.792324] (-) TimerEvent: {}
+[20.893023] (-) TimerEvent: {}
+[20.993735] (-) TimerEvent: {}
+[21.094457] (-) TimerEvent: {}
+[21.195135] (-) TimerEvent: {}
+[21.295917] (-) TimerEvent: {}
+[21.398883] (-) TimerEvent: {}
+[21.499621] (-) TimerEvent: {}
+[21.600291] (-) TimerEvent: {}
+[21.700971] (-) TimerEvent: {}
+[21.801663] (-) TimerEvent: {}
+[21.902402] (-) TimerEvent: {}
+[22.003084] (-) TimerEvent: {}
+[22.103710] (-) TimerEvent: {}
+[22.204370] (-) TimerEvent: {}
+[22.305025] (-) TimerEvent: {}
+[22.405741] (-) TimerEvent: {}
+[22.506460] (-) TimerEvent: {}
+[22.607263] (-) TimerEvent: {}
+[22.652049] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool SLlidarNode::checkSLLIDARHealth(sl::ILidarDriver*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.652711] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nalsem/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:147:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[22.653154] (sllidar_ros2) StderrLine: {'line': b'  147 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[22.653563] (sllidar_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[22.707396] (-) TimerEvent: {}
+[22.808050] (-) TimerEvent: {}
+[22.908721] (-) TimerEvent: {}
+[23.009387] (-) TimerEvent: {}
+[23.110111] (-) TimerEvent: {}
+[23.210827] (-) TimerEvent: {}
+[23.311506] (-) TimerEvent: {}
+[23.412189] (-) TimerEvent: {}
+[23.512884] (-) TimerEvent: {}
+[23.613552] (-) TimerEvent: {}
+[23.714247] (-) TimerEvent: {}
+[23.814964] (-) TimerEvent: {}
+[23.915677] (-) TimerEvent: {}
+[24.016411] (-) TimerEvent: {}
+[24.117079] (-) TimerEvent: {}
+[24.217767] (-) TimerEvent: {}
+[24.318473] (-) TimerEvent: {}
+[24.419262] (-) TimerEvent: {}
+[24.519993] (-) TimerEvent: {}
+[24.620660] (-) TimerEvent: {}
+[24.721333] (-) TimerEvent: {}
+[24.822022] (-) TimerEvent: {}
+[24.922724] (-) TimerEvent: {}
+[25.023376] (-) TimerEvent: {}
+[25.124134] (-) TimerEvent: {}
+[25.224880] (-) TimerEvent: {}
+[25.325557] (-) TimerEvent: {}
+[25.426266] (-) TimerEvent: {}
+[25.526933] (-) TimerEvent: {}
+[25.627649] (-) TimerEvent: {}
+[25.728369] (-) TimerEvent: {}
+[25.829094] (-) TimerEvent: {}
+[25.929760] (-) TimerEvent: {}
+[26.030452] (-) TimerEvent: {}
+[26.131249] (-) TimerEvent: {}
+[26.231967] (-) TimerEvent: {}
+[26.332620] (-) TimerEvent: {}
+[26.433276] (-) TimerEvent: {}
+[26.534120] (-) TimerEvent: {}
+[26.635304] (-) TimerEvent: {}
+[26.736256] (-) TimerEvent: {}
+[26.837001] (-) TimerEvent: {}
+[26.937731] (-) TimerEvent: {}
+[27.038483] (-) TimerEvent: {}
+[27.139128] (-) TimerEvent: {}
+[27.239789] (-) TimerEvent: {}
+[27.340527] (-) TimerEvent: {}
+[27.441253] (-) TimerEvent: {}
+[27.542195] (-) TimerEvent: {}
+[27.642839] (-) TimerEvent: {}
+[27.743541] (-) TimerEvent: {}
+[27.844344] (-) TimerEvent: {}
+[27.945044] (-) TimerEvent: {}
+[27.998196] (sllidar_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[28.045222] (-) TimerEvent: {}
+[28.145870] (-) TimerEvent: {}
+[28.246680] (-) TimerEvent: {}
+[28.347383] (-) TimerEvent: {}
+[28.448390] (-) TimerEvent: {}
+[28.549178] (-) TimerEvent: {}
+[28.650049] (-) TimerEvent: {}
+[28.750779] (-) TimerEvent: {}
+[28.851453] (-) TimerEvent: {}
+[28.952180] (-) TimerEvent: {}
+[29.052957] (-) TimerEvent: {}
+[29.124357] (sllidar_ros2) StdoutLine: {'line': b'[ 92%] Built target sllidar_node\n'}
+[29.153236] (-) TimerEvent: {}
+[29.253938] (-) TimerEvent: {}
+[29.354633] (-) TimerEvent: {}
+[29.455328] (-) TimerEvent: {}
+[29.556032] (-) TimerEvent: {}
+[29.656724] (-) TimerEvent: {}
+[29.757439] (-) TimerEvent: {}
+[29.858191] (-) TimerEvent: {}
+[29.958813] (-) TimerEvent: {}
+[30.059493] (-) TimerEvent: {}
+[30.160131] (-) TimerEvent: {}
+[30.260825] (-) TimerEvent: {}
+[30.361510] (-) TimerEvent: {}
+[30.462182] (-) TimerEvent: {}
+[30.562832] (-) TimerEvent: {}
+[30.663506] (-) TimerEvent: {}
+[30.764239] (-) TimerEvent: {}
+[30.864897] (-) TimerEvent: {}
+[30.965559] (-) TimerEvent: {}
+[31.066266] (-) TimerEvent: {}
+[31.166999] (-) TimerEvent: {}
+[31.267646] (-) TimerEvent: {}
+[31.368333] (-) TimerEvent: {}
+[31.469027] (-) TimerEvent: {}
+[31.569738] (-) TimerEvent: {}
+[31.670469] (-) TimerEvent: {}
+[31.771164] (-) TimerEvent: {}
+[31.871883] (-) TimerEvent: {}
+[31.972599] (-) TimerEvent: {}
+[32.073309] (-) TimerEvent: {}
+[32.174018] (-) TimerEvent: {}
+[32.274724] (-) TimerEvent: {}
+[32.375361] (-) TimerEvent: {}
+[32.476075] (-) TimerEvent: {}
+[32.576734] (-) TimerEvent: {}
+[32.677461] (-) TimerEvent: {}
+[32.778285] (-) TimerEvent: {}
+[32.878967] (-) TimerEvent: {}
+[32.884011] (sllidar_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sllidar_client\x1b[0m\n'}
+[32.979224] (-) TimerEvent: {}
+[33.079981] (-) TimerEvent: {}
+[33.180726] (-) TimerEvent: {}
+[33.281426] (-) TimerEvent: {}
+[33.382173] (-) TimerEvent: {}
+[33.482819] (-) TimerEvent: {}
+[33.583508] (-) TimerEvent: {}
+[33.684150] (-) TimerEvent: {}
+[33.784877] (-) TimerEvent: {}
+[33.885574] (-) TimerEvent: {}
+[33.933968] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[33.982353] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[33.988713] (-) TimerEvent: {}
+[34.090154] (-) TimerEvent: {}
+[34.134289] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[34.173880] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nalsem/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/nalsem/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'nalsem'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('ROS_NAMESPACE', 'nalsem_A'), ('SSH_AGENT_PID', '5852'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nalsem'), ('OLDPWD', '/home/nalsem'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/nalsem/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nalsem'), ('WINDOWID', '85983235'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/nalsem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nalsem-desktop:@/tmp/.ICE-unix/5768,unix/nalsem-desktop:/tmp/.ICE-unix/5768'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/nalsem/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/nalsem'), ('AMENT_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('PWD', '/home/nalsem/ros2_ws/build/sllidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/nalsem/ros2_ws/build/nalsem_A:/home/nalsem/ros2_ws/install/nalsem_A/lib/python3.8/site-packages:/home/nalsem/ros2_ws/build/mecha_autoship_camera:/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6001'), ('CMAKE_PREFIX_PATH', '/home/nalsem/ros2_ws/install/sllidar_ros2:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy')]), 'shell': False}
+[34.190322] (-) TimerEvent: {}
+[34.244301] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.246067] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[34.251313] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[34.281755] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py\n'}
+[34.290471] (-) TimerEvent: {}
+[34.312990] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[34.343958] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[34.374807] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[34.390651] (-) TimerEvent: {}
+[34.406669] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[34.438360] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[34.469082] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[34.490812] (-) TimerEvent: {}
+[34.499282] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py\n'}
+[34.531468] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[34.565449] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[34.591035] (-) TimerEvent: {}
+[34.597347] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[34.628287] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[34.662688] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[34.691441] (-) TimerEvent: {}
+[34.696712] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[34.730874] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[34.761798] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[34.791665] (-) TimerEvent: {}
+[34.793471] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[34.824999] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[34.861423] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[34.891848] (-) TimerEvent: {}
+[34.893353] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[34.925080] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[34.956167] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[34.987523] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[34.992048] (-) TimerEvent: {}
+[35.018470] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[35.050083] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[35.081063] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[35.092216] (-) TimerEvent: {}
+[35.112441] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[35.145551] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[35.177650] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[35.192423] (-) TimerEvent: {}
+[35.209297] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[35.241253] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[35.272108] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[35.292627] (-) TimerEvent: {}
+[35.310207] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nalsem/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[35.359530] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[35.392808] (-) TimerEvent: {}
+[35.494432] (-) TimerEvent: {}
+[35.600562] (-) TimerEvent: {}
+[35.613434] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[35.618994] (-) EventReactorShutdown: {}

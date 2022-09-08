@@ -1,0 +1,4 @@
+Invoking command in '/home/nalsem/ros2_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/nalsem/ros2_ws/build/ydlidar_sdk -- -j4 -l4
+Invoked command in '/home/nalsem/ros2_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/nalsem/ros2_ws/build/ydlidar_sdk -- -j4 -l4
+Invoking command in '/home/nalsem/ros2_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/nalsem/ros2_ws/build/ydlidar_sdk
+Invoked command in '/home/nalsem/ros2_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/nalsem/ros2_ws/build/ydlidar_sdk

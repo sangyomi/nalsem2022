@@ -1,0 +1,4 @@
+[console_scripts]
+mecha_autoship_lidar_node = mecha_autoship_bringup.mecha_autoship_lidar_node:main
+mecha_autoship_mcu_node = mecha_autoship_bringup.mecha_autoship_mcu_node:main
+

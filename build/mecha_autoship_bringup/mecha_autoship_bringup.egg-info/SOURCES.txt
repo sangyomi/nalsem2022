@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+launch/mecha_autoship_bringup.launch.py
+mecha_autoship_bringup/__init__.py
+mecha_autoship_bringup/mecha_autoship_lidar_node.py
+mecha_autoship_bringup/mecha_autoship_mcu_node.py
+mecha_autoship_bringup.egg-info/PKG-INFO
+mecha_autoship_bringup.egg-info/SOURCES.txt
+mecha_autoship_bringup.egg-info/dependency_links.txt
+mecha_autoship_bringup.egg-info/entry_points.txt
+mecha_autoship_bringup.egg-info/requires.txt
+mecha_autoship_bringup.egg-info/top_level.txt
+mecha_autoship_bringup.egg-info/zip-safe
+param/mecha_autoship_lidar.yaml
+resource/mecha_autoship_bringup

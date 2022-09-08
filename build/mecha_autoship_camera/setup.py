@@ -1,0 +1,1 @@
+/home/nalsem/ros2_ws/src/mecha_autoship_camera/setup.py

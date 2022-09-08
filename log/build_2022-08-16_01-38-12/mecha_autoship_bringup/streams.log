@@ -1,0 +1,18 @@
+[5.117s] Invoking command in '/home/nalsem/ros2_ws/build/mecha_autoship_bringup': PYTHONPATH=/home/nalsem/ros2_ws/install/mecha_autoship_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nalsem/ros2_ws/install/mecha_autoship_bringup --editable --build-directory /home/nalsem/ros2_ws/build/mecha_autoship_bringup/build --no-deps install_data --install-dir /home/nalsem/ros2_ws/install/mecha_autoship_bringup
+[6.374s] running develop
+[7.104s] running egg_info
+[7.105s] writing mecha_autoship_bringup.egg-info/PKG-INFO
+[7.106s] writing dependency_links to mecha_autoship_bringup.egg-info/dependency_links.txt
+[7.106s] writing entry points to mecha_autoship_bringup.egg-info/entry_points.txt
+[7.107s] writing requirements to mecha_autoship_bringup.egg-info/requires.txt
+[7.107s] writing top-level names to mecha_autoship_bringup.egg-info/top_level.txt
+[7.273s] reading manifest file 'mecha_autoship_bringup.egg-info/SOURCES.txt'
+[7.277s] writing manifest file 'mecha_autoship_bringup.egg-info/SOURCES.txt'
+[7.445s] running build_ext
+[7.448s] Creating /home/nalsem/ros2_ws/install/mecha_autoship_bringup/lib/python3.8/site-packages/mecha-autoship-bringup.egg-link (link to .)
+[7.450s] Installing mecha_autoship_lidar_node script to /home/nalsem/ros2_ws/install/mecha_autoship_bringup/lib/mecha_autoship_bringup
+[7.451s] Installing mecha_autoship_mcu_node script to /home/nalsem/ros2_ws/install/mecha_autoship_bringup/lib/mecha_autoship_bringup
+[7.452s] 
+[7.452s] Installed /home/nalsem/ros2_ws/build/mecha_autoship_bringup
+[7.453s] running install_data
+[7.604s] Invoked command in '/home/nalsem/ros2_ws/build/mecha_autoship_bringup' returned '0': PYTHONPATH=/home/nalsem/ros2_ws/install/mecha_autoship_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nalsem/ros2_ws/install/mecha_autoship_bringup --editable --build-directory /home/nalsem/ros2_ws/build/mecha_autoship_bringup/build --no-deps install_data --install-dir /home/nalsem/ros2_ws/install/mecha_autoship_bringup

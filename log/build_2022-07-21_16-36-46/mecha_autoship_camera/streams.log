@@ -1,0 +1,33 @@
+[4.874s] Invoking command in '/home/nalsem/ros2_ws/build/mecha_autoship_camera': PYTHONPATH=/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nalsem/ros2_ws/install/mecha_autoship_camera --editable --build-directory /home/nalsem/ros2_ws/build/mecha_autoship_camera/build --no-deps install_data --install-dir /home/nalsem/ros2_ws/install/mecha_autoship_camera
+[5.927s] running develop
+[6.545s] running egg_info
+[6.546s] creating mecha_autoship_camera.egg-info
+[6.547s] writing mecha_autoship_camera.egg-info/PKG-INFO
+[6.547s] writing dependency_links to mecha_autoship_camera.egg-info/dependency_links.txt
+[6.548s] writing entry points to mecha_autoship_camera.egg-info/entry_points.txt
+[6.549s] writing requirements to mecha_autoship_camera.egg-info/requires.txt
+[6.549s] writing top-level names to mecha_autoship_camera.egg-info/top_level.txt
+[6.558s] writing manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'
+[6.719s] reading manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'
+[6.722s] writing manifest file 'mecha_autoship_camera.egg-info/SOURCES.txt'
+[6.894s] running build_ext
+[6.896s] Creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages/site.py
+[6.905s] Creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages/mecha-autoship-camera.egg-link (link to .)
+[6.910s] Installing mecha_autoship_filtered_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+[6.911s] Installing mecha_autoship_image_color_filter_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+[6.913s] Installing mecha_autoship_image_pub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+[6.916s] Installing mecha_autoship_image_sub_node script to /home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/mecha_autoship_camera
+[6.918s] 
+[6.918s] Installed /home/nalsem/ros2_ws/build/mecha_autoship_camera
+[6.920s] running install_data
+[6.922s] creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/ament_index
+[6.922s] creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/ament_index/resource_index
+[6.923s] creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/ament_index/resource_index/packages
+[6.924s] copying resource/mecha_autoship_camera -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/ament_index/resource_index/packages
+[6.925s] copying package.xml -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera
+[6.927s] creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/launch
+[6.928s] copying launch/mecha_autoship_camera_publisher.launch.py -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/launch
+[6.929s] copying launch/mecha_autoship_camera_subscriber.launch.py -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/launch
+[6.929s] creating /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/param
+[6.930s] copying param/mecha_autoship_camera.yaml -> /home/nalsem/ros2_ws/install/mecha_autoship_camera/share/mecha_autoship_camera/param
+[7.163s] Invoked command in '/home/nalsem/ros2_ws/build/mecha_autoship_camera' returned '0': PYTHONPATH=/home/nalsem/ros2_ws/install/mecha_autoship_camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nalsem/ros2_ws/install/mecha_autoship_camera --editable --build-directory /home/nalsem/ros2_ws/build/mecha_autoship_camera/build --no-deps install_data --install-dir /home/nalsem/ros2_ws/install/mecha_autoship_camera

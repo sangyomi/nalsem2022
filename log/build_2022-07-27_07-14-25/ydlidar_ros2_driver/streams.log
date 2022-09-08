@@ -1,0 +1,113 @@
+[2.253s] Invoking command in '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake /home/nalsem/ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nalsem/ros2_ws/install/ydlidar_ros2_driver
+[2.873s] -- The C compiler identification is GNU 9.4.0
+[3.427s] -- The CXX compiler identification is GNU 9.4.0
+[3.464s] -- Check for working C compiler: /usr/bin/cc
+[3.766s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.780s] -- Detecting C compiler ABI info
+[4.125s] -- Detecting C compiler ABI info - done
+[4.182s] -- Detecting C compile features
+[4.185s] -- Detecting C compile features - done
+[4.199s] -- Check for working CXX compiler: /usr/bin/c++
+[4.569s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.573s] -- Detecting CXX compiler ABI info
+[4.914s] -- Detecting CXX compiler ABI info - done
+[4.971s] -- Detecting CXX compile features
+[4.974s] -- Detecting CXX compile features - done
+[4.996s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.171s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.148s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.334s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.703s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.215s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.405s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.213s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.225s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.228s] -- Looking for pthread.h
+[8.692s] -- Looking for pthread.h - found
+[8.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.373s] -- Looking for pthread_create in pthreads
+[9.623s] -- Looking for pthread_create in pthreads - not found
+[9.625s] -- Looking for pthread_create in pthread
+[10.199s] -- Looking for pthread_create in pthread - found
+[10.203s] -- Found Threads: TRUE  
+[11.598s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[12.487s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[12.987s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[13.165s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.849s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.934s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.936s] -- Configured cppcheck include dirs: /home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src
+[13.937s] -- Configured cppcheck exclude dirs and/or files: 
+[14.008s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.009s] -- Configured cpplint exclude dirs and/or files: 
+[14.032s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.055s] -- Added test 'lint_cmake' to check CMake code style
+[14.074s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[14.144s] -- Added test 'uncrustify' to check C / C++ code style
+[14.145s] -- Configured uncrustify additional arguments: 
+[14.166s] -- Added test 'xmllint' to check XML markup files
+[14.210s] -- Configuring done
+[14.303s] -- Generating done
+[14.314s] -- Build files have been written to: /home/nalsem/ros2_ws/build/ydlidar_ros2_driver
+[14.365s] Invoked command in '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake /home/nalsem/ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nalsem/ros2_ws/install/ydlidar_ros2_driver
+[14.368s] Invoking command in '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake --build /home/nalsem/ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[14.619s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_client[0m
+[14.649s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_node[0m
+[15.069s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[15.077s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[24.951s] [01m[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[24.952s] [01m[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:163:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[24.953s]   163 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[24.954s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[24.955s] [01m[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:164:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[24.955s]   164 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[24.956s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[24.958s] [01m[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:165:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[24.959s]   165 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[24.959s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[24.983s] [01m[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[24.984s] [01m[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:173:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[24.985s]   173 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[24.986s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[24.987s] [01m[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:174:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[24.988s]   174 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[24.988s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[24.990s] [01m[K/home/nalsem/ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:175:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[24.990s]   175 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[24.991s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[34.456s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[35.641s] [ 75%] Built target ydlidar_ros2_driver_node
+[39.198s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[40.287s] [100%] Built target ydlidar_ros2_driver_client
+[40.331s] Invoked command in '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake --build /home/nalsem/ros2_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[40.416s] Invoking command in '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake --install /home/nalsem/ros2_ws/build/ydlidar_ros2_driver
+[40.452s] -- Install configuration: ""
+[40.454s] -- Execute custom install script
+[40.456s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[40.489s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[40.523s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[40.553s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[40.584s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[40.615s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[40.651s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[40.686s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[40.718s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[40.749s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[40.781s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[40.811s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[40.844s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[40.877s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[40.907s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[40.939s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[40.970s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[41.001s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[41.032s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[41.065s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[41.096s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[41.127s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[41.159s] -- Symlinking: /home/nalsem/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[41.204s] Invoked command in '/home/nalsem/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nalsem/ros2_ws/install/nalsem_A:/home/nalsem/ros2_ws/install/mecha_autoship_camera:/opt/ros/foxy /usr/bin/cmake --install /home/nalsem/ros2_ws/build/ydlidar_ros2_driver

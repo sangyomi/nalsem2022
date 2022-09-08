@@ -1,0 +1,1 @@
+/home/nalsem/ros2_ws/src/mecha_autoship_2022/mecha_autoship_bringup/launch/mecha_autoship_bringup.launch.py
